@@ -1,0 +1,11 @@
+﻿@using DgtalVideo.Localizations.Auth
+@{
+    ViewData["Title"] = "Доступ запрещён";
+}
+<section class="page-hero">
+    <div class="container">
+        <h1 class="page-hero__title">@Auth.Deny_access_denied</h1>
+        <p class="page-hero__text">@Auth.Deny_not_permission</p>
+        <a asp-controller="Auth" asp-action="Login" class="btn btn--primary">@Auth.Login</a>
+    </div>
+</section>

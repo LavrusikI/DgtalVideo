@@ -1,0 +1,189 @@
+﻿@using DgtalVideo.Localizations.Home
+@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<section class="hero">
+    <video src="/videos/about-us.mp4" class="hero__video" autoplay muted loop playsinline>
+    </video>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+        <h1 class="hero__title">@IndexPage.Index_video_editing</h1>
+        <p class="hero__text">@IndexPage.Index_create_video</p>
+        <a asp-controller="Home" asp-action="Portfolio" class="btn btn--primary">@IndexPage.Index_see_more_works</a>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section__title">@IndexPage.Index_video_categories</h2>
+        <p class="section__subtitle">@IndexPage.Index_our_specialization</p>
+
+        <div class="categories-grid">
+            <article class="category-card">
+                <div class="category-card__icon">01</div>
+                <h3 class="category-card__title">@IndexPage.Index_commercials</h3>
+                <p class="category-card__text">@IndexPage.Index_video_description_part1</p>
+            </article>
+            <article class="category-card">
+                <div class="category-card__icon">02</div>
+                <h3 class="category-card__title">@IndexPage.Index_corporate_videos</h3>
+                <p class="category-card__text">@IndexPage.Index_video_description_part2</p>
+            </article>
+            <article class="category-card">
+                <div class="category-card__icon">03</div>
+                <h3 class="category-card__title">@IndexPage.Index_wedding_films</h3>
+                <p class="category-card__text">@IndexPage.Index_video_description_part3</p>
+            </article>
+            <article class="category-card">
+                <div class="category-card__icon">04</div>
+                <h3 class="category-card__title">@IndexPage.Index_youtube_content</h3>
+                <p class="category-card__text">@IndexPage.Index_video_description_part4</p>
+            </article>
+            <article class="category-card">
+                <div class="category-card__icon">05</div>
+                <h3 class="category-card__title">@IndexPage.Index_music_videos</h3>
+                <p class="category-card__text">@IndexPage.Index_video_description_part5</p>
+            </article>
+            <article class="category-card">
+                <div class="category-card__icon">06</div>
+                <h3 class="category-card__title">@IndexPage.Index_reels_and_stories</h3>
+                <p class="category-card__text">@IndexPage.Index_video_description_part6</p>
+            </article>
+            <article class="category-card">
+                <div class="category-card__icon">07</div>
+                <h3 class="category-card__title">@IndexPage.Index_video_greetings</h3>
+                <p class="category-card__text">@IndexPage.Index_about_video_greetings</p>
+            </article>
+            <article class="category-card">
+                <div class="category-card__icon">08</div>
+                <h3 class="category-card__title">@IndexPage.Index_video_for_contests</h3>
+                <p class="category-card__text">@IndexPage.Index_about_video_for_contests</p>
+            </article>
+            <article class="category-card">
+                <div class="category-card__icon">09</div>
+                <h3 class="category-card__title">@IndexPage.Index_vacation_video</h3>
+                <p class="category-card__text">@IndexPage.Index_about_vacation_video</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section section--gray">
+    <div class="container">
+        <div class="about-block">
+            <img src="~/images/team/irina-1.jpg" alt="@IndexPage.Index_installation_workflow" class="about-block__image" />
+            <div class="about-block__content">
+                <p class="about-block__label">@IndexPage.Index_about_us</p>
+                <h2 class="about-block__heading">@IndexPage.Index_for_your_brand</h2>
+                <p class="about-block__text">
+                    @IndexPage.Index_text_block_part1
+                </p>
+                <p class="about-block__text">
+                    @IndexPage.Index_text_block_part2
+                </p>
+                <a asp-controller="Home" asp-action="AboutUs" class="btn btn--dark">@IndexPage.Index_more_about_us</a>
+            </div>
+            <img src="~/images/team/logo-dgtalvideo.jpg" alt="@IndexPage.Index_ready_made" class="about-block__image" />
+        </div>
+    </div>
+</section>
+
+
+<section class="section faq-section">
+    <div class="container">
+        <div class="accordion-container">
+            <h2 class="section__title">@IndexPage.Index_FAQ</h2>
+            <div class="accordion-list">
+                <div class="accordion-item">
+                    <button type="button" class="accordion-trigger">
+                        @IndexPage.Index_budget
+                    </button>
+                    <div class="accordion-panel">
+                        <p>
+                            @IndexPage.Index_FAQ2
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button type="button" class="accordion-trigger">
+                        @IndexPage.Index_faq_how_long_video_editing
+                    </button>
+                    <div class="accordion-panel">
+                        <p>
+                            @IndexPage.Index_faq_about_how_long_video_editing
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button type="button" class="accordion-trigger">
+                        @IndexPage.Index_faq_make_changes
+                    </button>
+                    <div class="accordion-panel">
+                        <p>
+                            @IndexPage.Index_faq_about_make_changes
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button type="button" class="accordion-trigger">
+                        @IndexPage.Index_faq_provide_music
+                    </button>
+                    <div class="accordion-panel">
+                        <p>
+                            @IndexPage.Index_faq_about_provide_music
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button type="button" class="accordion-trigger">
+                        @IndexPage.Index_faq_how_will_finished_be_delivered
+                    </button>
+                    <div class="accordion-panel">
+                        <p>
+                            @IndexPage.Index_faq_about_how_will_finished_be_delivered
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section__title">@IndexPage.Index_customer_reviews</h2>
+        <p class="section__subtitle">@IndexPage.Index_reviews_part1</p>
+        <div class="reviews-grid" id="reviewsContainer">
+            @foreach (var review in Model.Reviews)
+            {
+                <article class="review-card">
+                    <div class="review-card__quote">"</div>
+                    <p class="review-card__text">@review.Text</p>
+                    <div class="review-card__author">
+                        <div class="review-card__avatar" data-name="@review.Name" aria-hidden="true"></div>
+                        <div>
+                            <p class="review-card__name">@review.Name</p>
+                            <p class="review-card__role">@review.ShortDescription</p>
+                        </div>
+                    </div>
+                </article>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section section--gray">
+    <div class="container" style="text-align: center;">
+        <h2 class="section__title">@IndexPage.Index_footer_start_small</h2>
+        <p class="section__subtitle" style="margin: 0 auto 32px;">@Portfolio.Portfolio_tell_your_project</p>
+        <a asp-controller="CostCalculator" asp-action="CostCalculator" class="btn btn--dark">@IndexPage.Index_calculate_the_cost</a>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/getInitials.js"></script>
+    <script src="~/js/accordion.js" asp-append-version="true"></script>
+}

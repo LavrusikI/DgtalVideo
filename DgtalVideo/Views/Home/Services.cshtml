@@ -1,0 +1,50 @@
+﻿@using DgtalVideo.Localizations.Home
+@{
+    ViewData["Title"] = "Услуги";
+}
+
+<section class="page-hero">
+    <div class="container">
+        <h1 class="page-hero__title">@ServicePage.Services_services</h1>
+        <p class="page-hero__text">@ServicePage.Services_full_range</p>
+    </div>
+</section>
+
+<section class="content-block">
+    <div class="container">
+        <div class="services-list">
+            <div class="service-item">
+                <h3>@ServicePage.Services_video_editing</h3>
+                <p>@ServicePage.Services_description_part1</p>
+            </div>
+            <div class="service-item">
+                <h3>@ServicePage.Service_color_correction</h3>
+                <p>@ServicePage.Services_proffesional_color</p>
+            </div>
+            <div class="service-item">
+                <h3>@ServicePage.Services_sound_design</h3>
+                <p>@ServicePage.Services_description_part2</p>
+            </div>
+            <div class="service-item">
+                <h3>@ServicePage.Services_motion_graphics</h3>
+                <p>@ServicePage.Service_description_part3</p>
+            </div>
+            <div class="service-item">
+                <h3>@ServicePage.Services_subtitles</h3>
+                <p>@ServicePage.Services_description_part4</p>
+            </div>
+            <div class="service-item">
+                <h3>@ServicePage.Services_platform_adaptation</h3>
+                <p>@ServicePage.Services_preparing_video</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section--dark">
+    <div class="container" style="text-align: center;">
+        <h2 class="section__title">@ServicePage.Services_ready_start_project</h2>
+        <p class="section__subtitle" style="margin: 0 auto 32px;">@ServicePage.Services_contact_free_consultation</p>
+        <a asp-controller="CostCalculator" asp-action="CostCalculator" class="btn btn--dark">@IndexPage.Index_calculate_the_cost</a>
+    </div>
+</section>

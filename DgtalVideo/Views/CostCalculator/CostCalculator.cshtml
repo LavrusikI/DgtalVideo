@@ -1,0 +1,38 @@
+﻿@using DgtalVideo.Data.Enums
+@using DgtalVideo.Localizations.CostCalculator
+@model CostСalculatorViewModel
+<section>
+    <section class="content-block">
+        <div class="container">
+            <form method="post">
+                <h1>@CostCalculator.Cost_calculator_header</h1>
+                <div>
+                    <label>@CostCalculator.Cost_calculator_color_correction</label>
+                    <select asp-for="SelectedServices" asp-items="Html.GetEnumSelectList<ServiceType>()" class="form-control"></select>
+                </div>
+                <div>
+                    <label>@CostCalculator.Cost_calculator_volume_of_the_sourse</label>
+                    <select asp-for="VolumeOfSourceFiles" asp-items="Html.GetEnumSelectList<VolumeOfSourceFiles>()" class="form-control"></select>
+                </div>
+                <div>
+                    <label>@CostCalculator.Cost_calculator_necessary</label>
+                    <select asp-for="Subtitles" asp-items="Html.GetEnumSelectList<Subtitles>()" class="form-control"></select>
+                </div>
+                <div>
+                    <label>@CostCalculator.Cost_calculator_deadline</label>
+                    <select asp-for="Urgency" asp-items="Html.GetEnumSelectList<Urgency>()" class="form-control"></select>
+                </div>
+                <div>
+                    <label>@CostCalculator.Cost_calculator_format</label>
+                    <select asp-for="FormatMovie" asp-items="Html.GetEnumSelectList<Format>()" class="form-control"></select>
+                </div>
+                <button type="submit" class="admin-button admin-button--block">@CostCalculator.Cost_calculator_calculate</button>
+            </form>
+
+            @if (Model.TotalCost > 0)
+            {
+                <h3>@CostCalculator.Cost_calculator_estimated_total_cost @Model.TotalCost ₽</h3>
+            }
+        </div>
+    </section>
+</section>

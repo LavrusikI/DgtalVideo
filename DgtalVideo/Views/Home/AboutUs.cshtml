@@ -1,0 +1,38 @@
+﻿@using DgtalVideo.Localizations.Home
+@{
+    ViewData["Title"] = "О нас";
+}
+
+<section class="page-hero">
+    <div class="container">
+        <h1 class="page-hero__title">@AboutUs.About_us</h1>
+        <p class="page-hero__text">@AboutUs.About_us_team</p>
+    </div>
+</section>
+
+<section class="content-block">
+    <div class="container">
+        <div class="about-page-content">
+            <img src="~/images/team/header-banner.jpg" alt="Команда DgtalVideo" class="about-block__image" style="aspect-ratio: 16/10;" />
+            <div>
+                <h2 class="section__title">@AboutUs.About_us_our_story</h2>
+                <p>
+                    @AboutUs.About_us_text_part1
+                </p>
+                <p>
+                    @AboutUs.About_us_text_part2
+                </p>
+                <p>
+                    @AboutUs.About_us_text_part3
+                </p>
+                <p>
+                    @AboutUs.About_us_text_part4
+                </p>
+                <h2 class="section__title">@AboutUs.Header_about_us_text_part5</h2>
+                <p>
+                    @AboutUs.About_us_text_part5
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

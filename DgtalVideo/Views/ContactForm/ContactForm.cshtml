@@ -1,0 +1,20 @@
+﻿@using DgtalVideo.Localizations.ContactForm
+<section>
+    <section class="content-block">
+        <div class="container">
+            <form method="post"
+                  asp-controller="ContactForm"
+                  asp-action="SubmitContactForm"
+                  class="admin-form">
+                <label>@ContactForm.Contact_form_header</label>
+                @Html.TextBox("NameCustomer", null, new { placeholder = @ContactForm.Contact_form_how_should_i_address_you })
+                @Html.TextBox("MobilePhone", null, new { placeholder = @ContactForm.Contact_form_what_is_your_phone })
+                @Html.TextBox("ApplicationText", null, new { placeholder = @ContactForm.Contact_form_please_briedly })
+                <button type="submit"
+                        class="admin-button admin-button--secondary admin-button--block">
+                    @ContactForm.Contact_form_send
+                </button>
+            </form>
+        </div>
+    </section>
+</section>

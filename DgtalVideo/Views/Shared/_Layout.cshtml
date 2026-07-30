@@ -1,0 +1,97 @@
+﻿@using DgtalVideo.Data.Enums
+@using DgtalVideo.Localizations.Shared
+@{
+    var isAuthenticated = User.Identity?.IsAuthenticated == true;
+    var isAdmin = isAuthenticated && (
+        User.IsInRole(UserRole.Admin.ToString()) ||
+        User.FindFirst("Role")?.Value == UserRole.Admin.ToString());
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DgtalVideo</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DgtalVideo.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="notification-container-add-movie"></div>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="site-logo" asp-controller="Home" asp-action="Index">DgtalVideo</a>
+
+            <button class="menu-toggle" type="button" aria-label="@ResLayout.Layout_open_menu" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav>
+                <ul class="site-nav" id="siteNav">
+                    <li>
+                        <a class="site-nav__link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "site-nav__link--active" : "")"
+                           asp-controller="Home" asp-action="Index">@ResLayout.Layout_home</a>
+                    </li>
+                    <li>
+                        <a class="site-nav__link @(ViewContext.RouteData.Values["action"]?.ToString() == "Services" ? "site-nav__link--active" : "")"
+                           asp-controller="Home" asp-action="Services">@ResLayout.Layout_services</a>
+                    </li>
+                    <li>
+                        <a class="site-nav__link @(ViewContext.RouteData.Values["action"]?.ToString() == "Portfolio" ? "site-nav__link--active" : "")"
+                           asp-controller="Home" asp-action="Portfolio">@ResLayout.Layout_portfolio</a>
+                    </li>
+                    <li>
+                        <a class="site-nav__link @(ViewContext.RouteData.Values["action"]?.ToString() == "AboutUs" ? "site-nav__link--active" : "")"
+                           asp-controller="Home" asp-action="AboutUs">@ResLayout.Layout_about_us</a>
+                    </li>
+                    <li>
+                        <a class="site-nav__link @(ViewContext.RouteData.Values["action"]?.ToString() == "AboutUs" ? "site-nav__link--active" : "")"
+                           asp-controller="ContactForm" asp-action="ContactForm">@ResLayout.Layout_order</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <div class="header-auth">
+                    @if (isAdmin)
+                    {
+                        <a class="site-nav__link @(ViewContext.RouteData.Values["controller"]?.ToString() == "AdminPanel" ? "site-nav__link--active" : "")"
+                           asp-controller="AdminPanel" asp-action="AdminPanel">@ResLayout.Layout_personal_account</a>
+                        <a class="site-nav__link"
+                           asp-controller="Auth" asp-action="Logout">@ResLayout.Layout_logout</a>
+                    }
+                    else if (isAuthenticated)
+                    {
+                        <a class="site-nav__link"
+                           asp-controller="Auth" asp-action="Logout">@ResLayout.Layout_logout</a>
+                    }
+                    else
+                    {
+                        <a class="site-nav__link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Auth" ? "site-nav__link--active" : "")"
+                           asp-controller="Auth" asp-action="Login">@ResLayout.Layout_login</a>
+                    }
+                </div>
+                @await Html.PartialAsync("_SocialIcons")
+            </div>
+        </div>
+    </header>
+
+    <main class="site-main" role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__text">Created by <span>Ira Lavrusik</span></p>
+        </div>
+    </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/js/notice.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿@using DgtalVideo.Localizations.Auth
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Вход";
+}
+
+<section class="section">
+    <div class="container admin-auth">
+        <div class="admin-card">
+            <h1 class="section__title">@Auth.Login</h1>
+            <p class="section__subtitle">@Auth.Login_use_username_password</p>
+            <form method="post" asp-action="Login" class="admin-form">
+                <div>
+                    <label class="admin-form__label" asp-for="Login"></label>
+                    @Html.TextBoxFor(x => x.Login)
+                    @Html.ValidationMessageFor(x => x.Login)
+                </div>
+                <div>
+                    <label class="admin-form__label" asp-for="Password"></label>
+                    @Html.TextBoxFor(x => x.Password)
+                    @Html.ValidationMessageFor(x => x.Password)
+                </div>
+                <button type="submit" class="admin-button">@Auth.Login</button>
+               
+                <p class="section__subtitle">@Auth.Login_dont_have_an_account
+                    <a asp-controller="Auth" asp-action="Registration">@Auth.Login_sign_up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</section>

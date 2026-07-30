@@ -1,0 +1,434 @@
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\appsettings.Development.json
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\appsettings.json
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.staticwebassets.runtime.json
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.staticwebassets.endpoints.json
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.exe
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.deps.json
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.runtimeconfig.json
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.pdb
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.AssemblyInfoInputs.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.AssemblyInfo.cs
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.CoreCompileInputs.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.MvcApplicationPartsAssemblyInfo.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.RazorAssemblyInfo.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.RazorAssemblyInfo.cs
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\bundle\DgtalVideo.styles.css
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\projectbundle\DgtalVideo.bundle.scp.css
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.json
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.development.json
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\swae.build.ex.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.dll
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\refint\DgtalVideo.dll
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.pdb
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.genruntimeconfig.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\ref\DgtalVideo.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Azure.Core.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Azure.Identity.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.ClientModel.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Text.Json.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.Data.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.Data.pdb
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.AssemblyReference.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.Up2Date
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Учеба\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Ru\DgtalVideo.resources.dll
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.AdminPanel.AdminPanel.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.AdminPanel.AdminPanel.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.GenerateResource.cache
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\Ru\DgtalVideo.resources.dll
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Auth.Auth.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.AboutUs.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.IndexPage.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.Portfolio.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.ServicePage.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Shared.ResLayout.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Auth.Auth.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.AboutUs.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.IndexPage.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.Portfolio.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.ServicePage.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Shared.ResLayout.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Enums.Enums.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Enums.Enums.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.ContactForm.ContactForm.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.ContactForm.ContactForm.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.CostCalculator.CostCalculator.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.CostCalculator.CostCalculator.Ru.resources
+D:\Учеба\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.sourcelink.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\appsettings.Development.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\appsettings.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.staticwebassets.endpoints.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.staticwebassets.runtime.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.exe
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.deps.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.runtimeconfig.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.pdb
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Ru\DgtalVideo.resources.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Azure.Core.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Azure.Identity.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.ClientModel.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Text.Json.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.Data.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.Data.pdb
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.AssemblyReference.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.AdminPanel.AdminPanel.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Auth.Auth.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.ContactForm.ContactForm.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.CostCalculator.CostCalculator.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Enums.Enums.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.AboutUs.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.IndexPage.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.Portfolio.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.ServicePage.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Shared.ResLayout.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.AdminPanel.AdminPanel.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Auth.Auth.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.ContactForm.ContactForm.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.CostCalculator.CostCalculator.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Enums.Enums.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.AboutUs.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.IndexPage.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.Portfolio.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.ServicePage.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Shared.ResLayout.Ru.resources
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.GenerateResource.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.AssemblyInfoInputs.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.AssemblyInfo.cs
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.CoreCompileInputs.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.MvcApplicationPartsAssemblyInfo.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.RazorAssemblyInfo.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.RazorAssemblyInfo.cs
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.sourcelink.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\Ru\DgtalVideo.resources.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\bundle\DgtalVideo.styles.css
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\projectbundle\DgtalVideo.bundle.scp.css
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.development.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\swae.build.ex.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.Up2Date
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\refint\DgtalVideo.dll
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.pdb
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.genruntimeconfig.cache
+D:\Учеба\Копия учебного проекта 3\DgtalVideo\DgtalVideo\obj\Debug\net8.0\ref\DgtalVideo.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\appsettings.Development.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\appsettings.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.staticwebassets.endpoints.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.staticwebassets.runtime.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.exe
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.deps.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.runtimeconfig.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.pdb
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Ru\DgtalVideo.resources.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Azure.Core.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Azure.Identity.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.ClientModel.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Text.Json.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.Data.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\bin\Debug\net8.0\DgtalVideo.Data.pdb
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.AssemblyReference.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.AdminPanel.AdminPanel.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Auth.Auth.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.ContactForm.ContactForm.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.CostCalculator.CostCalculator.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Enums.Enums.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.AboutUs.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.IndexPage.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.Portfolio.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.ServicePage.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Shared.ResLayout.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.AdminPanel.AdminPanel.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Auth.Auth.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.ContactForm.ContactForm.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.CostCalculator.CostCalculator.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Enums.Enums.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.AboutUs.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.IndexPage.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.Portfolio.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Home.ServicePage.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.Localizations.Shared.ResLayout.Ru.resources
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.GenerateResource.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.AssemblyInfoInputs.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.AssemblyInfo.cs
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.CoreCompileInputs.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.MvcApplicationPartsAssemblyInfo.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.RazorAssemblyInfo.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.RazorAssemblyInfo.cs
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\Ru\DgtalVideo.resources.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\bundle\DgtalVideo.styles.css
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\scopedcss\projectbundle\DgtalVideo.bundle.scp.css
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.development.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\swae.build.ex.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.csproj.Up2Date
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\refint\DgtalVideo.dll
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.pdb
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\DgtalVideo.genruntimeconfig.cache
+D:\Учеба\Diploma\DgtalVideo\DgtalVideo\obj\Debug\net8.0\ref\DgtalVideo.dll

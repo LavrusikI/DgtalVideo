@@ -1,0 +1,50 @@
+﻿@using DgtalVideo.Localizations.Auth
+@model UserViewModel
+
+<section class="section">
+    <div class="container admin-auth">
+        <div class="admin-card">
+            <h1 class="section__title">@Auth.Login_sign_up_header</h1>
+            <p class="section__subtitle">@Auth.Login_enter_your_details</p>
+            <form method="post" asp-action="Registration" class="admin-form">
+                <div>
+                    <label class="admin-form__label" asp-for="Login"></label>
+                    @Html.TextBoxFor(x => x.Login, new { placeholder = "Login" })
+                    @Html.ValidationMessageFor(x => x.Login)
+                </div>
+                <div>
+                    <label class="admin-form__label" asp-for="Password"></label>
+                    @Html.TextBoxFor(x => x.Password, new { placeholder = "Password" })
+                    @Html.ValidationMessageFor(x => x.Password)
+                </div>
+                <div>
+                    <label class="admin-form__label" asp-for="Name"></label>
+                    @Html.TextBoxFor(x => x.Name, new { placeholder = "Name" })
+                    @Html.ValidationMessageFor(x => x.Name)
+                </div>
+                <div>
+                    <label class="admin-form__label" asp-for="MobilePhone"></label>
+                    @Html.TextBoxFor(x => x.MobilePhone, new { placeholder = "MobilePhone" })
+                    @Html.ValidationMessageFor(x => x.MobilePhone)
+                </div>
+                <div class="language-picker">
+                    <div class="language-picker__header">
+                        <span class="language-picker__eyebrow">@Auth.Registration_language</span>
+                        <p class="language-picker__hint">@Auth.Registration_select_the_language</p>
+                    </div>
+                    <label class="admin-form__label" asp-for="SelectedLanguage">@Auth.Registration_language</label>
+                    <div class="language-picker__control">
+                        <select asp-for="SelectedLanguage"
+                                asp-items="Model.ListLanguages"
+                                class="language-picker__select"></select>
+                    </div>
+                </div>
+                <button type="submit" class="admin-button">Registration</button>
+                @Auth.Registration_already_have_an_account
+                <p class="section__subtitle">
+                    <a asp-controller="Auth" asp-action="Login">@Auth.Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,43 @@
+﻿@using DgtalVideo.Localizations.Home
+@model List<PortfolioViewModel>
+@{
+    ViewData["Title"] = "Портфолио";
+}
+
+<section class="page-hero">
+    <div class="container">
+        <h1 class="page-hero__title">@Portfolio.Portfolio_portfolio</h1>
+        <p class="page-hero__text">@Portfolio.Portfolio_selection_editing_format</p>
+    </div>
+</section>
+
+<section class="content-block">
+    <div class="container">
+        <div class="portfolio-grid">
+            @foreach (var movie in Model)
+            {
+                <div class="portfolio-item">
+                    <video class="portfolio-item__video"
+                           src="@movie.UrlMovie"
+                           controls
+                           muted
+                           loop
+                           autoplay
+                           playsinline></video>
+                    <div class="portfolio-item__overlay">
+                        <p class="portfolio-item__title">@movie.Title</p>
+                        <p class="portfolio-item__category">@movie.Category</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section section--gray">
+    <div class="container" style="text-align: center;">
+        <h2 class="section__title">@Portfolio.Index_same_result</h2>
+        <p class="section__subtitle" style="margin: 0 auto 32px;">@Portfolio.Portfolio_tell_your_project</p>
+        <a asp-controller="CostCalculator" asp-action="CostCalculator" class="btn btn--dark">@IndexPage.Index_calculate_the_cost</a>
+    </div>
+</section>

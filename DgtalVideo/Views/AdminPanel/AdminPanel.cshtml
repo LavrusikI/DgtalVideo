@@ -1,0 +1,257 @@
+﻿@using DgtalVideo.Localizations.AdminPanel
+@using DgtalVideo.Models
+@model AdminPanelViewModel
+@{
+    ViewData["Title"] = "Панель администратора";
+    var showPortfolioForm = ViewBag.ShowPortfolioForm as bool? == true;
+    var showReviewForm = ViewBag.ShowReviewForm as bool? == true;
+}
+<section class="section section--gray">
+    <div class="container container--wide admin-panel">
+        <h1 class="section__title">@AdminPanel.Admin_panel_header</h1>
+        <div class="admin-card admin-card--section">
+            <div class="admin-section-header">
+                <h2 class="admin-card__title">
+                    @AdminPanel.Admin_panel_customer_inquiries
+                    @if (@Model.UnreadRequestCount > 0)
+                    {
+                        <span class="admin-badge">@Model.UnreadRequestCount</span>
+                    }
+                </h2>
+            </div>
+            @if (!Model.ContactRequests.Any())
+            {
+                <p>@AdminPanel.Admin_panel_no_new_request</p>
+            }
+            else
+            {
+                <div class="admin-table-wrap">
+                    <div class="admin-grid admin-grid--requests">
+                        <div class="admin-grid__head">
+                            <div>Дата</div>
+                            <div>Имя</div>
+                            <div>Телефон</div>
+                            <div>Текст</div>
+                            <div>Статус</div>
+                            <div></div>
+                        </div>
+                        @foreach (var request in Model.ContactRequests)
+                        {
+                            <div class="admin-grid__row @(request.IsRead ? null : "is-unread")">
+                                <div data-label="Дата">@request.CreatedAt.ToLocalTime().ToString("g")</div>
+                                <div data-label="Имя">@request.NameCustomer</div>
+                                <div data-label="Телефон">@request.MobilePhone</div>
+                                <div data-label="Текст">@request.ApplicationText</div>
+                                <div data-label="Статус">@(request.IsRead ? "Прочитано" : "Новое")</div>
+                                <div data-label="">
+                                    @if (!request.IsRead)
+                                    {
+                                        <form asp-action="MarkContactRequestAsRead" method="post">
+                                            <input type="hidden" name="id" value="@request.Id" />
+                                            <button type="submit" class="admin-button admin-button--small">
+                                                Прочитано
+                                            </button>
+                                        </form>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+        @if (TempData["Success"] is string message)
+        {
+            <p class="admin-panel__message">@message</p>
+        }
+
+        <div class="admin-card admin-card--section">
+            <div class="admin-section-header">
+                <h2 class="admin-card__title">@AdminPanel.Admin_panel_portfolio</h2>
+            </div>
+
+            <button type="button"
+                    class="admin-button admin-button--block @(showPortfolioForm ? "is-active" : null)"
+                    id="togglePortfolioForm"
+                    aria-expanded="@(showPortfolioForm ? "true" : "false")"
+                    aria-controls="portfolioCreateForm">
+               @AdminPanel.Admin_panel_Add_a_work
+            </button>
+
+            <form asp-action="AddMovieFromPortfolio"
+                  method="post"
+                  class="admin-form admin-form--create @(showPortfolioForm ? null : "is-hidden")"
+                  id="portfolioCreateForm">
+                @Html.AntiForgeryToken()
+                <div class="admin-form__field">
+                    <label asp-for="NewPortfolio.Title">@AdminPanel.Admin_panel_Headline</label>
+                    <input asp-for="NewPortfolio.Title" class="admin-form__input" />
+                </div>
+                <div class="admin-form__field">
+                    <label asp-for="NewPortfolio.Category">@AdminPanel.Admin_panel_category</label>
+                    <input asp-for="NewPortfolio.Category" class="admin-form__input" />
+                </div>
+                <div class="admin-form__field">
+                    <label asp-for="NewPortfolio.Description">@AdminPanel.Admin_panel_description</label>
+                    <textarea asp-for="NewPortfolio.Description" class="admin-form__input admin-form__textarea"></textarea>
+                </div>
+                <div class="admin-form__field">
+                    <label asp-for="NewPortfolio.UrlMovie">@AdminPanel.Admin_panel_link_to_video</label>
+                    <input asp-for="NewPortfolio.UrlMovie" class="admin-form__input" />
+                </div>
+                <div class="admin-form__actions">
+                    <button type="submit" class="admin-button admin-button--block">@AdminPanel.Admin_panel_save_work</button>
+                    <button type="button"
+                            class="admin-button admin-button--secondary admin-button--block"
+                            data-close-form="portfolioCreateForm"
+                            data-toggle-btn="togglePortfolioForm">
+                        @AdminPanel.Admin_panel_btn_cancel
+                    </button>
+                </div>
+            </form>
+
+            <div class="admin-table-wrap">
+                <div class="admin-grid admin-grid--portfolio">
+                    <div class="admin-grid__head">
+                        <div>@AdminPanel.Admin_panel_Headline</div>
+                        <div>@AdminPanel.Admin_panel_category</div>
+                        <div>@AdminPanel.Admin_panel_link_to_video</div>
+                        <div>@AdminPanel.Admin_panel_actions</div>
+                    </div>
+                    @foreach (var movie in Model.Movies)
+                    {
+                        <div class="admin-grid__row">
+                            <div data-label="@AdminPanel.Admin_panel_Headline">@movie.Title</div>
+                            <div data-label="@AdminPanel.Admin_panel_category">@movie.Category</div>
+                            <div data-label="@AdminPanel.Admin_panel_link_to_video">
+                                <a href="@movie.UrlMovie" target="_blank" rel="noopener">@AdminPanel.Admin_panel_open</a>
+                            </div>
+                            <div class="admin-table__actions" data-label="@AdminPanel.Admin_panel_actions">
+                                <a asp-action="AdminPanel" asp-route-editId="@movie.Id" class="admin-button admin-button--small">
+                                    @AdminPanel.Admin_panel_edit
+                                </a>
+                                <form asp-action="DeleteMovie" method="post" class="admin-inline-form">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@movie.Id" />
+                                    <button type="submit"
+                                            class="admin-button admin-button--danger admin-button--small"
+                                            onclick="return confirm('@AdminPanel.Admin_panel_delete_this_work')">
+                                        @AdminPanel.Admin_panel_btn_delete
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        @if (Model.EditingPortfolio != null && Model.EditingPortfolio.Id == movie.Id)
+                        {
+                            <div class="admin-grid__edit">
+                                <div class="admin-card--edit">
+                                    <h3>@AdminPanel.Admin_panel_editing_the_work</h3>
+                                    <form asp-action="UpdateMovie" method="post" class="admin-form">
+                                        @Html.AntiForgeryToken()
+                                        <input type="hidden" asp-for="EditingPortfolio.Id" />
+                                        <div class="admin-form__field">
+                                            <label asp-for="EditingPortfolio.Title">@AdminPanel.Admin_panel_Headline</label>
+                                            <input asp-for="EditingPortfolio.Title" class="admin-form__input" />
+                                        </div>
+                                        <div class="admin-form__field">
+                                            <label asp-for="EditingPortfolio.Category">@AdminPanel.Admin_panel_category</label>
+                                            <input asp-for="EditingPortfolio.Category" class="admin-form__input" />
+                                        </div>
+                                        <div class="admin-form__field">
+                                            <label asp-for="EditingPortfolio.Description">@AdminPanel.Admin_panel_description</label>
+                                            <textarea asp-for="EditingPortfolio.Description" class="admin-form__input admin-form__textarea"></textarea>
+                                        </div>
+                                        <div class="admin-form__field">
+                                            <label asp-for="EditingPortfolio.UrlMovie">@AdminPanel.Admin_panel_link_to_video</label>
+                                            <input asp-for="EditingPortfolio.UrlMovie" class="admin-form__input" />
+                                        </div>
+                                        <div class="admin-form__actions admin-form__actions--row">
+                                            <button type="submit" class="admin-button">@AdminPanel.Admin_panel_save_work</button>
+                                            <a asp-action="AdminPanel" class="admin-button admin-button--secondary">@AdminPanel.Admin_panel_btn_cancel</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="admin-card admin-card--section">
+            <div class="admin-section-header">
+                <h2 class="admin-card__title">Отзывы</h2>
+            </div>
+
+            <button type="button"
+                    class="admin-button admin-button--block @(showReviewForm ? "is-active" : null)"
+                    id="toggleReviewForm"
+                    aria-expanded="@(showReviewForm ? "true" : "false")"
+                    aria-controls="reviewCreateForm">
+                Добавить отзыв
+            </button>
+
+            <form asp-action="AddReviewFromReviews"
+                  method="post"
+                  class="admin-form admin-form--create @(showReviewForm ? null : "is-hidden")"
+                  id="reviewCreateForm">
+                @Html.AntiForgeryToken()
+                <div class="admin-form__field">
+                    <label asp-for="NewReview.Name">Имя</label>
+                    <input asp-for="NewReview.Name" class="admin-form__input" />
+                </div>
+                <div class="admin-form__field">
+                    <label asp-for="NewReview.ShortDescription">Короткое описание</label>
+                    <input asp-for="NewReview.ShortDescription" class="admin-form__input" />
+                </div>
+                <div class="admin-form__field">
+                    <label asp-for="NewReview.Text">Текст комментария</label>
+                    <textarea asp-for="NewReview.Text" class="admin-form__input admin-form__textarea"></textarea>
+                </div>
+                <div class="admin-form__actions">
+                    <button type="submit" class="admin-button admin-button--block">Сохранить отзыв</button>
+                    <button type="button"
+                            class="admin-button admin-button--secondary admin-button--block"
+                            data-close-form="reviewCreateForm"
+                            data-toggle-btn="toggleReviewForm">
+                        Отмена
+                    </button>
+                </div>
+            </form>
+
+            <div class="admin-table-wrap">
+                <div class="admin-grid admin-grid--reviews">
+                    <div class="admin-grid__head">
+                        <div>Имя</div>
+                        <div>Кратко</div>
+                        <div>Текст</div>
+                        <div>Действия</div>
+                    </div>
+                    @foreach (var review in Model.Reviews)
+                    {
+                        <div class="admin-grid__row">
+                            <div data-label="Имя">@review.Name</div>
+                            <div data-label="Кратко">@review.ShortDescription</div>
+                            <div data-label="Текст">@review.Text</div>
+                            <div class="admin-table__actions" data-label="Действия">
+                                <form asp-action="DeleteReview" method="post" class="admin-inline-form">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@review.Id" />
+                                    <button type="submit"
+                                            class="admin-button admin-button--danger admin-button--small"
+                                            onclick="return confirm('Удалить этот отзыв?')">
+                                        Удалить
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/adminPanel.js" asp-append-version="true"></script>
+}
