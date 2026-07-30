@@ -1,0 +1,29 @@
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace DgtalVideo.Data.Migrations
+{
+    /// <inheritdoc />
+    public partial class AddColumnLanguageFromTableUser : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.AddColumn<int>(
+                name: "SelectedLanguage",
+                table: "Users",
+                type: "int",
+                nullable: false,
+                defaultValue: 0);
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropColumn(
+                name: "SelectedLanguage",
+                table: "Users");
+        }
+    }
+}
