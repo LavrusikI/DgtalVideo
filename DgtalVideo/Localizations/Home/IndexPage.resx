@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Index_3_rounds" xml:space="preserve">
+    <value>Up to 3 rounds of revisions are included.</value>
+  </data>
+  <data name="Index_about_us" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="Index_about_vacation_video" xml:space="preserve">
+    <value>Capture the best moments of your vacation with stylish and atmospheric videos.</value>
+  </data>
+  <data name="Index_about_video_for_contests" xml:space="preserve">
+    <value>Draw attention to your contests with eye-catching and creative videos.</value>
+  </data>
+  <data name="Index_about_video_greetings" xml:space="preserve">
+    <value>Emotional and personalized video greetings that create unforgettable moments for your loved ones and colleagues. Share joy and warmth with a unique video!</value>
+  </data>
+  <data name="Index_btn_submit_a_request" xml:space="preserve">
+    <value>Submit a request</value>
+  </data>
+  <data name="Index_budget" xml:space="preserve">
+    <value>What makes up the budget?</value>
+  </data>
+  <data name="Index_calculate_the_cost" xml:space="preserve">
+    <value>Calculate the cost</value>
+  </data>
+  <data name="Index_commercials" xml:space="preserve">
+    <value>Commercials</value>
+  </data>
+  <data name="Index_contact_discuss" xml:space="preserve">
+    <value>Submit a request, and we will contact you to discuss the project details.</value>
+  </data>
+  <data name="Index_corporate_videos" xml:space="preserve">
+    <value>Corporate videos</value>
+  </data>
+  <data name="Index_create_video" xml:space="preserve">
+    <value>We create dynamic videos that capture attention and tell your story from the very first frame.</value>
+  </data>
+  <data name="Index_customer_reviews" xml:space="preserve">
+    <value>Customer Reviews</value>
+  </data>
+  <data name="Index_email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Index_FAQ" xml:space="preserve">
+    <value>Frequently Asked Questions</value>
+  </data>
+  <data name="Index_faq1" xml:space="preserve">
+    <value>Please describe in detail the type of video you need; if you have a project brief, please attach it.</value>
+  </data>
+  <data name="Index_FAQ2" xml:space="preserve">
+    <value>The cost of editing depends on the volume of material, the complexity of the work, and additional services (such as color grading or animation). We can offer fixed rates or a custom quote after discussing the project details.</value>
+  </data>
+  <data name="Index_faq_about_how_long_video_editing" xml:space="preserve">
+    <value>Timelines depend on the project's complexity and the studio's current workload. Typically, simple projects can be completed within 3–5 business days, while more complex ones may take 1–2 weeks. We always aim to agree on timelines with the client in advance.</value>
+  </data>
+  <data name="Index_faq_about_how_will_finished_be_delivered" xml:space="preserve">
+    <value>We can deliver the finished video via cloud services (such as Google Drive or Dropbox) or send it by email, depending on the file size.</value>
+  </data>
+  <data name="Index_faq_about_make_changes" xml:space="preserve">
+    <value>Yes, we offer the option to make revisions after the initial viewing. Typically, the service package includes a certain number of revisions, but we are always open to discussing additional changes and their cost.</value>
+  </data>
+  <data name="Index_faq_about_provide_music" xml:space="preserve">
+    <value>Yes, we can help select music and sound design for your video. We have access to licensed music libraries and can offer several options to choose from, depending on the mood of your project.</value>
+  </data>
+  <data name="Index_faq_how_long_video_editing" xml:space="preserve">
+    <value>What is the turnaround time for a video editing order?</value>
+  </data>
+  <data name="Index_faq_how_will_finished_be_delivered" xml:space="preserve">
+    <value>How will the finished video be delivered?</value>
+  </data>
+  <data name="Index_faq_make_changes" xml:space="preserve">
+    <value>Can I make changes to the video after the first draft?</value>
+  </data>
+  <data name="Index_faq_provide_music" xml:space="preserve">
+    <value>Do you provide music selection and sound design services?</value>
+  </data>
+  <data name="Index_fixed_estimate" xml:space="preserve">
+    <value>Fixed estimate before work begins</value>
+  </data>
+  <data name="Index_footer_start_small" xml:space="preserve">
+    <value>Start small, find out the cost.</value>
+  </data>
+  <data name="Index_for_your_brand" xml:space="preserve">
+    <value>We create video that works for your brand.</value>
+  </data>
+  <data name="Index_free_consultation" xml:space="preserve">
+    <value>Free consultation</value>
+  </data>
+  <data name="Index_installation_workflow" xml:space="preserve">
+    <value>Installation workflow</value>
+  </data>
+  <data name="Index_more_about_us" xml:space="preserve">
+    <value>More about us</value>
+  </data>
+  <data name="Index_music_videos" xml:space="preserve">
+    <value>Music videos</value>
+  </data>
+  <data name="Index_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Index_order_installation" xml:space="preserve">
+    <value>How do I order installation, and what does the process involve?</value>
+  </data>
+  <data name="Index_our_specialization" xml:space="preserve">
+    <value>We specialize in editing various formats—from commercials to social media content.</value>
+  </data>
+  <data name="Index_personalized_proposal" xml:space="preserve">
+    <value>Fill out the form on the right, and we will prepare a personalized proposal within 24 hours.</value>
+  </data>
+  <data name="Index_phone_number" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="Index_placeholder_your_project" xml:space="preserve">
+    <value>Tell us about your project: video type, duration, timelines...</value>
+  </data>
+  <data name="Index_project_description" xml:space="preserve">
+    <value>Project Description</value>
+  </data>
+  <data name="Index_ready_made" xml:space="preserve">
+    <value>Ready-made video project</value>
+  </data>
+  <data name="Index_reels_and_stories" xml:space="preserve">
+    <value>Reels and Stories</value>
+  </data>
+  <data name="Index_reviews_part1" xml:space="preserve">
+    <value>What those who have already entrusted us with their projects say about us.</value>
+  </data>
+  <data name="Index_see_more_works" xml:space="preserve">
+    <value>See more works</value>
+  </data>
+  <data name="Index_text_block_part1" xml:space="preserve">
+    <value>DgtalVideo is a team of editors with experience in advertising, film, and digital media.</value>
+  </data>
+  <data name="Index_text_block_part2" xml:space="preserve">
+    <value>We use professional software and modern editing techniques to ensure your video stands out from the competition and achieves its goals.</value>
+  </data>
+  <data name="Index_vacation_video" xml:space="preserve">
+    <value>Vacation video</value>
+  </data>
+  <data name="Index_video_categories" xml:space="preserve">
+    <value>Video categories</value>
+  </data>
+  <data name="Index_video_description_part1" xml:space="preserve">
+    <value>Vibrant and memorable videos to promote a brand, product, or service.</value>
+  </data>
+  <data name="Index_video_description_part2" xml:space="preserve">
+    <value>Company presentations, event reports, and internal communications.</value>
+  </data>
+  <data name="Index_video_description_part3" xml:space="preserve">
+    <value>Touching love stories, edited with attention to every detail.</value>
+  </data>
+  <data name="Index_video_description_part4" xml:space="preserve">
+    <value>Dynamic editing for bloggers and creators that keeps viewers engaged until the very end.</value>
+  </data>
+  <data name="Index_video_description_part5" xml:space="preserve">
+    <value>Rhythmic beat-synced editing with color grading and visual effects.</value>
+  </data>
+  <data name="Index_video_description_part6" xml:space="preserve">
+    <value>Short-form vertical content for Instagram, TikTok, and other platforms.</value>
+  </data>
+  <data name="Index_video_editing" xml:space="preserve">
+    <value>Professional video editing</value>
+  </data>
+  <data name="Index_video_for_contests" xml:space="preserve">
+    <value>Videos for contests</value>
+  </data>
+  <data name="Index_video_greetings" xml:space="preserve">
+    <value>Video greetings</value>
+  </data>
+  <data name="Index_wedding_films" xml:space="preserve">
+    <value>Wedding films</value>
+  </data>
+  <data name="Index_your_name" xml:space="preserve">
+    <value>Your name</value>
+  </data>
+  <data name="Index_youtube_content" xml:space="preserve">
+    <value>YouTube content</value>
+  </data>
+</root>

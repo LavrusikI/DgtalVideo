@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Index_3_rounds" xml:space="preserve">
+    <value>До 3 раундов правок включены</value>
+  </data>
+  <data name="Index_about_us" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="Index_about_vacation_video" xml:space="preserve">
+    <value>Запечатлейте лучшие моменты вашего отдыха с помощью стильных и атмосферных видео.</value>
+  </data>
+  <data name="Index_about_video_for_contests" xml:space="preserve">
+    <value>Привлекайте внимание к вашим конкурсам с яркими и креативными видео.</value>
+  </data>
+  <data name="Index_about_video_greetings" xml:space="preserve">
+    <value>Эмоциональные и персонализированные видеопоздравления, которые создадут незабываемые моменты для ваших близких и коллег.</value>
+  </data>
+  <data name="Index_btn_submit_a_request" xml:space="preserve">
+    <value>Отправить заявку</value>
+  </data>
+  <data name="Index_budget" xml:space="preserve">
+    <value>Какова стоимость услуг по видеомонтажу?</value>
+  </data>
+  <data name="Index_calculate_the_cost" xml:space="preserve">
+    <value>Рассчитать стоимость</value>
+  </data>
+  <data name="Index_commercials" xml:space="preserve">
+    <value>Рекламные ролики</value>
+  </data>
+  <data name="Index_contact_discuss" xml:space="preserve">
+    <value>Оставьте заявку, и мы свяжемся с вами для уточнения деталей проекта.
+Стоимость видеомонтажа зависит от длительности исходного материала,
+сложности монтажа, количества правок и срочности выполнения.</value>
+  </data>
+  <data name="Index_corporate_videos" xml:space="preserve">
+    <value>Корпоративные видео</value>
+  </data>
+  <data name="Index_create_video" xml:space="preserve">
+    <value>Создаём динамичные ролики, которые захватывают внимание и рассказывают вашу историю с первого кадра.</value>
+  </data>
+  <data name="Index_customer_reviews" xml:space="preserve">
+    <value>Отзывы клиентов</value>
+  </data>
+  <data name="Index_email" xml:space="preserve">
+    <value>Электронная почта</value>
+  </data>
+  <data name="Index_FAQ" xml:space="preserve">
+    <value>Ответы на частозадаваемые вопросы</value>
+  </data>
+  <data name="Index_faq1" xml:space="preserve">
+    <value>Опишите подробно, какого плана ролик Вам нужен, если есть ТЗ - прикрепите его.
+ Уточните все детали, по возможности, прикрепите 1-3 исходных файла, чтобы мы смогли
+ оценить возможности в реализации задуманного.</value>
+  </data>
+  <data name="Index_FAQ2" xml:space="preserve">
+    <value>Стоимость монтажа зависит от объема материала, сложности работы и дополнительных услуг (например, цветокоррекция или анимация). Мы можем предложить фиксированные тарифы или индивидуальную оценку после обсуждения деталей проекта.</value>
+  </data>
+  <data name="Index_faq_about_how_long_video_editing" xml:space="preserve">
+    <value>Сроки зависят от сложности проекта и текущей загрузки студии. Обычно простые проекты могут быть выполнены в течение 3-5 рабочих дней, тогда как более сложные могут занять 1-2 недели. Мы всегда стараемся согласовать сроки с клиентом заранее.</value>
+  </data>
+  <data name="Index_faq_about_how_will_finished_be_delivered" xml:space="preserve">
+    <value>Готовое видео мы можем передать через облачные сервисы (например, Google Drive или Dropbox) или отправить по электронной почте в зависимости от размера файла. </value>
+  </data>
+  <data name="Index_faq_about_make_changes" xml:space="preserve">
+    <value>Да, мы предоставляем возможность вносить правки после первого просмотра. Обычно в пакет услуг входит определенное количество правок, но мы всегда готовы обсудить дополнительные изменения и их стоимость.</value>
+  </data>
+  <data name="Index_faq_about_provide_music" xml:space="preserve">
+    <value>Да, мы можем помочь с подбором музыки и звукового оформления для вашего видео. У нас есть доступ к библиотекам с лицензированной музыкой, и мы можем предложить несколько вариантов на выбор в зависимости от настроения вашего проекта.</value>
+  </data>
+  <data name="Index_faq_how_long_video_editing" xml:space="preserve">
+    <value>Каковы сроки выполнения заказа на видеомонтаж?</value>
+  </data>
+  <data name="Index_faq_how_will_finished_be_delivered" xml:space="preserve">
+    <value>Как будет происходить передача готового видео?</value>
+  </data>
+  <data name="Index_faq_make_changes" xml:space="preserve">
+    <value>Могу ли я внести изменения в видео после первого варианта?</value>
+  </data>
+  <data name="Index_faq_provide_music" xml:space="preserve">
+    <value>Предоставляете ли вы услуги по подбору музыки и звукового оформления?</value>
+  </data>
+  <data name="Index_fixed_estimate" xml:space="preserve">
+    <value>Фиксированная смета до начала работ</value>
+  </data>
+  <data name="Index_footer_start_small" xml:space="preserve">
+    <value>Начните с малого, расскажите о своём проекте</value>
+  </data>
+  <data name="Index_for_your_brand" xml:space="preserve">
+    <value>Создаём видео, которое работает на ваш бренд</value>
+  </data>
+  <data name="Index_free_consultation" xml:space="preserve">
+    <value>Бесплатная консультация</value>
+  </data>
+  <data name="Index_installation_workflow" xml:space="preserve">
+    <value>Рабочий процесс монтажа</value>
+  </data>
+  <data name="Index_more_about_us" xml:space="preserve">
+    <value>Подробнее о нас</value>
+  </data>
+  <data name="Index_music_videos" xml:space="preserve">
+    <value>Музыкальные клипы</value>
+  </data>
+  <data name="Index_name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Index_order_installation" xml:space="preserve">
+    <value>Как заказать монтаж и как это происходит?</value>
+  </data>
+  <data name="Index_our_specialization" xml:space="preserve">
+    <value>Мы специализируемся на монтаже различных форматов — от рекламных роликов до контента для социальных сетей.</value>
+  </data>
+  <data name="Index_personalized_proposal" xml:space="preserve">
+    <value>Заполните форму справа — мы подготовим индивидуальное предложение
+в течение 24 часов.</value>
+  </data>
+  <data name="Index_phone_number" xml:space="preserve">
+    <value>Номер телефона</value>
+  </data>
+  <data name="Index_placeholder_your_project" xml:space="preserve">
+    <value>Расскажите о вашем проекте: тип видео, длительность, сроки...</value>
+  </data>
+  <data name="Index_project_description" xml:space="preserve">
+    <value>Описание проекта</value>
+  </data>
+  <data name="Index_ready_made" xml:space="preserve">
+    <value>Готовый видеопроект</value>
+  </data>
+  <data name="Index_reels_and_stories" xml:space="preserve">
+    <value>Reels и Stories</value>
+  </data>
+  <data name="Index_reviews_part1" xml:space="preserve">
+    <value>Что говорят о нас те, кто уже доверил нам свои проекты.</value>
+  </data>
+  <data name="Index_see_more_works" xml:space="preserve">
+    <value>Увидеть больше работ</value>
+  </data>
+  <data name="Index_text_block_part1" xml:space="preserve">
+    <value>DgtalVideo — команда монтажёров с опытом работы в рекламе, кино и digital-медиа.
+Мы понимаем, что каждый кадр должен нести смысл, а каждый переход — усиливать эмоцию.</value>
+  </data>
+  <data name="Index_text_block_part2" xml:space="preserve">
+    <value>Используем профессиональное ПО и современные техники монтажа, чтобы ваше видео
+ выделялось среди конкурентов и достигало поставленных целей.</value>
+  </data>
+  <data name="Index_vacation_video" xml:space="preserve">
+    <value>Видео с отдыха</value>
+  </data>
+  <data name="Index_video_categories" xml:space="preserve">
+    <value>Категории видео</value>
+  </data>
+  <data name="Index_video_description_part1" xml:space="preserve">
+    <value>Яркие и запоминающиеся видео для продвижения бренда, продукта или услуги.</value>
+  </data>
+  <data name="Index_video_description_part2" xml:space="preserve">
+    <value>Презентации компании, отчёты о мероприятиях и внутренние коммуникации.</value>
+  </data>
+  <data name="Index_video_description_part3" xml:space="preserve">
+    <value>Трогательные истории любви, смонтированные с вниманием к каждой детали.</value>
+  </data>
+  <data name="Index_video_description_part4" xml:space="preserve">
+    <value>Динамичный монтаж для блогеров и авторов, удерживающий зрителя до конца.</value>
+  </data>
+  <data name="Index_video_description_part5" xml:space="preserve">
+    <value>Ритмичный монтаж под бит с цветокоррекцией и визуальными эффектами.</value>
+  </data>
+  <data name="Index_video_description_part6" xml:space="preserve">
+    <value>Короткий вертикальный контент для Instagram, TikTok и других платформ.</value>
+  </data>
+  <data name="Index_video_editing" xml:space="preserve">
+    <value>Профессиональный видеомонтаж</value>
+  </data>
+  <data name="Index_video_for_contests" xml:space="preserve">
+    <value>Видео для конкурсов</value>
+  </data>
+  <data name="Index_video_greetings" xml:space="preserve">
+    <value>Видеопоздравления</value>
+  </data>
+  <data name="Index_wedding_films" xml:space="preserve">
+    <value>Свадебные фильмы</value>
+  </data>
+  <data name="Index_your_name" xml:space="preserve">
+    <value>Ваше имя</value>
+  </data>
+  <data name="Index_youtube_content" xml:space="preserve">
+    <value>YouTube-контент</value>
+  </data>
+</root>
