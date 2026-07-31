@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="../DgtalVideo.Data/DgtalVideo.Data.csproj" Id="8ebc0512-59a1-4d6b-baf4-ed973cae90b8" />
+  <Project Path="../DgtalVideo.E2E/DgtalVideo.Tests.E2E.csproj" Id="fe5baf94-c07c-4ccf-afd4-846f2eaebf9c" />
   <Project Path="DgtalVideo.csproj" />
 </Solution>
