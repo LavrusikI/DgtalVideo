@@ -1,5 +1,7 @@
 ﻿using DgtalVideo.Data.Enums;
+using DgtalVideo.Models.CustomValidationAttribute;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.ComponentModel.DataAnnotations;
 
 namespace DgtalVideo.Models
 {
@@ -7,6 +9,7 @@ namespace DgtalVideo.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        [CheckCorrectPhoneNumberAttribute]
         public string MobilePhone { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }

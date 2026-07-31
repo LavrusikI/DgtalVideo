@@ -86,14 +86,17 @@
                 <div class="admin-form__field">
                     <label asp-for="NewPortfolio.Title">@AdminPanel.Admin_panel_Headline</label>
                     <input asp-for="NewPortfolio.Title" class="admin-form__input" />
+                    @Html.ValidationMessageFor(x => x.NewPortfolio.Title)
                 </div>
                 <div class="admin-form__field">
                     <label asp-for="NewPortfolio.Category">@AdminPanel.Admin_panel_category</label>
                     <input asp-for="NewPortfolio.Category" class="admin-form__input" />
+                    @Html.ValidationMessageFor(x => x.NewPortfolio.Category)
                 </div>
                 <div class="admin-form__field">
                     <label asp-for="NewPortfolio.Description">@AdminPanel.Admin_panel_description</label>
                     <textarea asp-for="NewPortfolio.Description" class="admin-form__input admin-form__textarea"></textarea>
+                    @Html.ValidationMessageFor(x => x.NewPortfolio.Description)
                 </div>
                 <div class="admin-form__field">
                     <label asp-for="NewPortfolio.UrlMovie">@AdminPanel.Admin_panel_link_to_video</label>
@@ -203,10 +206,12 @@
                 <div class="admin-form__field">
                     <label asp-for="NewReview.ShortDescription">Короткое описание</label>
                     <input asp-for="NewReview.ShortDescription" class="admin-form__input" />
+                    @Html.ValidationMessageFor(x => x.NewReview.ShortDescription)
                 </div>
                 <div class="admin-form__field">
                     <label asp-for="NewReview.Text">Текст комментария</label>
                     <textarea asp-for="NewReview.Text" class="admin-form__input admin-form__textarea"></textarea>
+                    @Html.ValidationMessageFor(x => x.NewReview.Text)
                 </div>
                 <div class="admin-form__actions">
                     <button type="submit" class="admin-button admin-button--block">Сохранить отзыв</button>

@@ -24,7 +24,7 @@
                 </div>
                 <div>
                     <label class="admin-form__label" asp-for="MobilePhone"></label>
-                    @Html.TextBoxFor(x => x.MobilePhone, new { placeholder = "MobilePhone" })
+                    @Html.TextBoxFor(x => x.MobilePhone, new { placeholder = "+7(9XX)XXX-XX-XX" })
                     @Html.ValidationMessageFor(x => x.MobilePhone)
                 </div>
                 <div class="language-picker">
