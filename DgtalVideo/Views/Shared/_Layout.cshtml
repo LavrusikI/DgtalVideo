@@ -46,7 +46,7 @@
                            asp-controller="Home" asp-action="AboutUs">@ResLayout.Layout_about_us</a>
                     </li>
                     <li>
-                        <a class="site-nav__link @(ViewContext.RouteData.Values["action"]?.ToString() == "AboutUs" ? "site-nav__link--active" : "")"
+                        <a id="contact-form-id" class="site-nav__link @(ViewContext.RouteData.Values["action"]?.ToString() == "ContactForm" ? "site-nav__link--active" : "")"
                            asp-controller="ContactForm" asp-action="ContactForm">@ResLayout.Layout_order</a>
                     </li>
                 </ul>
