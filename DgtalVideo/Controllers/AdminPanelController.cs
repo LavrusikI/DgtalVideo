@@ -97,5 +97,11 @@ namespace DgtalVideo.Controllers
             _adminPanelService.MarkContactRequestAsRead(id);
             return RedirectToAction(nameof(AdminPanel));
         }
+        [HttpPost]
+        public IActionResult DeleteRequest(int id)
+        {
+            _adminPanelService.DeleteRequest(id);
+            return RedirectToAction(nameof(AdminPanel));
+        }
     }
 }

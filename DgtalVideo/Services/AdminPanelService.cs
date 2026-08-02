@@ -82,6 +82,21 @@ namespace DgtalVideo.Services
         {
             _reviewsRepository.Delete(reviewId);
         }
+       
+        public PortfolioViewModel? GetMovieById(int id)
+        {
+            var movie = _portfolioRepository.GetById(id);
+            return movie == null ? null : MapMovie(movie);
+        }
+        public void DeleteRequest(int requestId)
+        {
+            _contactFormRepository.Delete(requestId);
+        }
+        public void MarkContactRequestAsRead(int id)
+        {
+            _contactFormRepository.MarkAsRead(id);
+        }
+
         private static ReviewsViewModel MapReview(ReviewsData reviews)
         {
             return new ReviewsViewModel
@@ -116,16 +131,6 @@ namespace DgtalVideo.Services
                 IsRead = contactForm.IsRead,
             };
         }
-
-        public void MarkContactRequestAsRead(int id)
-        {
-            _contactFormRepository.MarkAsRead(id);
-        }
-
-        public PortfolioViewModel? GetMovieById(int id)
-        {
-            var movie = _portfolioRepository.GetById(id);
-            return movie == null ? null : MapMovie(movie);
-        }
+       
     }
 }

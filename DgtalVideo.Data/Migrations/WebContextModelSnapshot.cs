@@ -50,7 +50,7 @@ namespace DgtalVideo.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ContactForm");
+                    b.ToTable("ContactForm", (string)null);
                 });
 
             modelBuilder.Entity("DgtalVideo.Data.Models.PortfolioData", b =>
@@ -83,7 +83,7 @@ namespace DgtalVideo.Data.Migrations
 
                     b.HasIndex("UserCreatedId");
 
-                    b.ToTable("Portfolio");
+                    b.ToTable("Portfolio", (string)null);
                 });
 
             modelBuilder.Entity("DgtalVideo.Data.Models.ReviewsData", b =>
@@ -113,7 +113,7 @@ namespace DgtalVideo.Data.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("DgtalVideo.Data.Models.UserData", b =>
@@ -148,7 +148,7 @@ namespace DgtalVideo.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("DgtalVideo.Data.Models.PortfolioData", b =>

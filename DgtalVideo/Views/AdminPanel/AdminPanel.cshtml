@@ -28,31 +28,42 @@
                 <div class="admin-table-wrap">
                     <div class="admin-grid admin-grid--requests">
                         <div class="admin-grid__head">
-                            <div>Дата</div>
-                            <div>Имя</div>
-                            <div>Телефон</div>
-                            <div>Текст</div>
-                            <div>Статус</div>
+                            <div>@AdminPanel.Admin_panel_date</div>
+                            <div>@AdminPanel.Admin_panel_name</div>
+                            <div>@AdminPanel.Admin_panel_phone_number</div>
+                            <div>@AdminPanel.Admin_panel_text</div>
+                            <div>@AdminPanel.Admin_panel_status</div>
                             <div></div>
                         </div>
                         @foreach (var request in Model.ContactRequests)
                         {
                             <div class="admin-grid__row @(request.IsRead ? null : "is-unread")">
-                                <div data-label="Дата">@request.CreatedAt.ToLocalTime().ToString("g")</div>
-                                <div data-label="Имя">@request.NameCustomer</div>
-                                <div data-label="Телефон">@request.MobilePhone</div>
-                                <div data-label="Текст">@request.ApplicationText</div>
-                                <div data-label="Статус">@(request.IsRead ? "Прочитано" : "Новое")</div>
-                                <div data-label="">
-                                    @if (!request.IsRead)
-                                    {
-                                        <form asp-action="MarkContactRequestAsRead" method="post">
-                                            <input type="hidden" name="id" value="@request.Id" />
-                                            <button type="submit" class="admin-button admin-button--small">
-                                                Прочитано
-                                            </button>
-                                        </form>
-                                    }
+                                <div data-label="@AdminPanel.Admin_panel_date">@request.CreatedAt.ToLocalTime().ToString("g")</div>
+                                <div data-label="@AdminPanel.Admin_panel_name">@request.NameCustomer</div>
+                                <div data-label="@AdminPanel.Admin_panel_phone_number">@request.MobilePhone</div>
+                                <div data-label="@AdminPanel.Admin_panel_text">@request.ApplicationText</div>
+                                <div data-label="@AdminPanel.Admin_panel_status">@(request.IsRead ?  @AdminPanel.Admin_panel_read : @AdminPanel.Admin_panel_new)</div>
+                                <div class="admin-form__actions">
+                                    <div data-label="">
+                                        @if (!request.IsRead)
+                                        {
+                                            <form asp-action="MarkContactRequestAsRead" method="post">
+                                                <input type="hidden" name="id" value="@request.Id" />
+                                                <button type="submit" class="admin-button admin-button--small">
+                                                    "@AdminPanel.Admin_panel_read"
+                                                </button>
+                                            </form>
+                                        }
+                                    </div>
+                                    <form asp-action="DeleteRequest" method="post" class="admin-inline-form">
+                                        @Html.AntiForgeryToken()
+                                        <input type="hidden" name="id" value="@request.Id" />
+                                        <button type="submit"
+                                                class="admin-button admin-button--danger admin-button--small"
+                                                onclick="return confirm('@AdminPanel.Admin_panel_delete_this_work')">
+                                            @AdminPanel.Admin_panel_btn_delete
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         }
@@ -60,10 +71,7 @@
                 </div>
             }
         </div>
-        @if (TempData["Success"] is string message)
-        {
-            <p class="admin-panel__message">@message</p>
-        }
+
 
         <div class="admin-card admin-card--section">
             <div class="admin-section-header">
@@ -75,7 +83,7 @@
                     id="togglePortfolioForm"
                     aria-expanded="@(showPortfolioForm ? "true" : "false")"
                     aria-controls="portfolioCreateForm">
-               @AdminPanel.Admin_panel_Add_a_work
+                @AdminPanel.Admin_panel_Add_a_work
             </button>
 
             <form asp-action="AddMovieFromPortfolio"

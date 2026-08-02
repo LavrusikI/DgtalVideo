@@ -115,6 +115,15 @@ namespace DgtalVideo.Localizations.AdminPanel {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Date.
+        /// </summary>
+        public static string Admin_panel_date {
+            get {
+                return ResourceManager.GetString("Admin_panel_date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Delete this work?.
         /// </summary>
         public static string Admin_panel_delete_this_work {
@@ -178,6 +187,24 @@ namespace DgtalVideo.Localizations.AdminPanel {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Name.
+        /// </summary>
+        public static string Admin_panel_name {
+            get {
+                return ResourceManager.GetString("Admin_panel_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на New.
+        /// </summary>
+        public static string Admin_panel_new {
+            get {
+                return ResourceManager.GetString("Admin_panel_new", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на There are no new requests yet..
         /// </summary>
         public static string Admin_panel_no_new_request {
@@ -196,6 +223,15 @@ namespace DgtalVideo.Localizations.AdminPanel {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Phone number.
+        /// </summary>
+        public static string Admin_panel_phone_number {
+            get {
+                return ResourceManager.GetString("Admin_panel_phone_number", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Portfolio.
         /// </summary>
         public static string Admin_panel_portfolio {
@@ -205,11 +241,38 @@ namespace DgtalVideo.Localizations.AdminPanel {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Read.
+        /// </summary>
+        public static string Admin_panel_read {
+            get {
+                return ResourceManager.GetString("Admin_panel_read", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Save work.
         /// </summary>
         public static string Admin_panel_save_work {
             get {
                 return ResourceManager.GetString("Admin_panel_save_work", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Status.
+        /// </summary>
+        public static string Admin_panel_status {
+            get {
+                return ResourceManager.GetString("Admin_panel_status", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Text.
+        /// </summary>
+        public static string Admin_panel_text {
+            get {
+                return ResourceManager.GetString("Admin_panel_text", resourceCulture);
             }
         }
     }

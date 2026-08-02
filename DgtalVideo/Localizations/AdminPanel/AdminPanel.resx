@@ -135,6 +135,9 @@
   <data name="Admin_panel_customer_inquiries" xml:space="preserve">
     <value>Customer inquiries</value>
   </data>
+  <data name="Admin_panel_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
   <data name="Admin_panel_delete_this_work" xml:space="preserve">
     <value>Delete this work?</value>
   </data>
@@ -167,5 +170,23 @@
   </data>
   <data name="Admin_panel_save_work" xml:space="preserve">
     <value>Save work</value>
+  </data>
+  <data name="Admin_panel_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Admin_panel_phone_number" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="Admin_panel_text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Admin_panel_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_panel_read" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="Admin_panel_new" xml:space="preserve">
+    <value>New</value>
   </data>
 </root>

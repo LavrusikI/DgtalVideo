@@ -135,6 +135,9 @@
   <data name="Admin_panel_customer_inquiries" xml:space="preserve">
     <value>Обращения от клиентов</value>
   </data>
+  <data name="Admin_panel_date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
   <data name="Admin_panel_delete_this_work" xml:space="preserve">
     <value>Удалить это видео?</value>
   </data>
@@ -167,5 +170,23 @@
   </data>
   <data name="Admin_panel_save_work" xml:space="preserve">
     <value>Сохранить работу</value>
+  </data>
+  <data name="Admin_panel_name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Admin_panel_phone_number" xml:space="preserve">
+    <value>Номер телефона</value>
+  </data>
+  <data name="Admin_panel_text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Admin_panel_status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Admin_panel_read" xml:space="preserve">
+    <value>Прочитано</value>
+  </data>
+  <data name="Admin_panel_new" xml:space="preserve">
+    <value>Новое</value>
   </data>
 </root>
