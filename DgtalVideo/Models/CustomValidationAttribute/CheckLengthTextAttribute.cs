@@ -17,19 +17,19 @@ namespace DgtalVideo.Models.CustomValidationAttribute
         }
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
-            if (value is string str)
+            if (value == null)
             {
-                if (str.Length >= minLength && str.Length <= maxLength)
-                {
-                    return ValidationResult.Success;
-                }
-                else if (value == null)
-                {
-                    return ValidationResult.Success;
-                }
-                return new ValidationResult(ErrorMessage);
+                return ValidationResult.Success;
             }
-            return base.IsValid(value, validationContext);
+            if (value is not string str)
+            {
+                return new ValidationResult(ErrorMessage ?? "Invalid value");
+            }
+            if (str.Length >= minLength && str.Length <= maxLength)
+            {
+                return ValidationResult.Success;
+            }
+            return new ValidationResult(ErrorMessage ?? FormatErrorMessage(validationContext.DisplayName));
         }
     }
 }

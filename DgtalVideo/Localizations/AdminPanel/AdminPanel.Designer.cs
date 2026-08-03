@@ -106,6 +106,15 @@ namespace DgtalVideo.Localizations.AdminPanel {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Comment text.
+        /// </summary>
+        public static string Admin_panel_comment_text {
+            get {
+                return ResourceManager.GetString("Admin_panel_comment_text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Customer inquiries.
         /// </summary>
         public static string Admin_panel_customer_inquiries {
@@ -120,6 +129,15 @@ namespace DgtalVideo.Localizations.AdminPanel {
         public static string Admin_panel_date {
             get {
                 return ResourceManager.GetString("Admin_panel_date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Delete this review?.
+        /// </summary>
+        public static string Admin_panel_delete_this_review {
+            get {
+                return ResourceManager.GetString("Admin_panel_delete_this_review", resourceCulture);
             }
         }
         
@@ -174,6 +192,15 @@ namespace DgtalVideo.Localizations.AdminPanel {
         public static string Admin_panel_Headline {
             get {
                 return ResourceManager.GetString("Admin_panel_Headline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Leave a review.
+        /// </summary>
+        public static string Admin_panel_leave_a_review {
+            get {
+                return ResourceManager.GetString("Admin_panel_leave_a_review", resourceCulture);
             }
         }
         
@@ -250,11 +277,38 @@ namespace DgtalVideo.Localizations.AdminPanel {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Reviews.
+        /// </summary>
+        public static string Admin_panel_reviews {
+            get {
+                return ResourceManager.GetString("Admin_panel_reviews", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Save review.
+        /// </summary>
+        public static string Admin_panel_save_review {
+            get {
+                return ResourceManager.GetString("Admin_panel_save_review", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Save work.
         /// </summary>
         public static string Admin_panel_save_work {
             get {
                 return ResourceManager.GetString("Admin_panel_save_work", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Brief description.
+        /// </summary>
+        public static string Admin_panel_short_description {
+            get {
+                return ResourceManager.GetString("Admin_panel_short_description", resourceCulture);
             }
         }
         

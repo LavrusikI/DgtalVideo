@@ -189,4 +189,22 @@
   <data name="Admin_panel_new" xml:space="preserve">
     <value>Новое</value>
   </data>
+  <data name="Admin_panel_leave_a_review" xml:space="preserve">
+    <value>Добавить отзыв</value>
+  </data>
+  <data name="Admin_panel_reviews" xml:space="preserve">
+    <value>Отзывы</value>
+  </data>
+  <data name="Admin_panel_short_description" xml:space="preserve">
+    <value>Краткое описание</value>
+  </data>
+  <data name="Admin_panel_comment_text" xml:space="preserve">
+    <value>Текст комментария</value>
+  </data>
+  <data name="Admin_panel_save_review" xml:space="preserve">
+    <value>Сохранить отзыв</value>
+  </data>
+  <data name="Admin_panel_delete_this_review" xml:space="preserve">
+    <value>Удалить этот отзыв?</value>
+  </data>
 </root>

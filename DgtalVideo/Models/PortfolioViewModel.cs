@@ -10,6 +10,7 @@ namespace DgtalVideo.Models
         public string Category { get; set; }
         [CheckLengthTextAttribute(5,150)]
         public string? Description { get; set; }
-        public string UrlMovie { get; set; }
+        public string? UrlMovie { get; set; }
+        public string? FileMovie { get; set; }
     }
 }

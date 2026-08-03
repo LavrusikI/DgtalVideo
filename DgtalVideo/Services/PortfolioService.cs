@@ -28,6 +28,7 @@ namespace DgtalVideo.Services
                 Category = portfolio.Category,
                 Description = portfolio.Description,
                 UrlMovie = portfolio.UrlMovie,
+                FileMovie = portfolio.FileMovie,
             };
         }
     }

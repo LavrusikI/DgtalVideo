@@ -42,7 +42,7 @@
                                 <div data-label="@AdminPanel.Admin_panel_name">@request.NameCustomer</div>
                                 <div data-label="@AdminPanel.Admin_panel_phone_number">@request.MobilePhone</div>
                                 <div data-label="@AdminPanel.Admin_panel_text">@request.ApplicationText</div>
-                                <div data-label="@AdminPanel.Admin_panel_status">@(request.IsRead ?  @AdminPanel.Admin_panel_read : @AdminPanel.Admin_panel_new)</div>
+                                <div data-label="@AdminPanel.Admin_panel_status">@(request.IsRead ? @AdminPanel.Admin_panel_read : @AdminPanel.Admin_panel_new)</div>
                                 <div class="admin-form__actions">
                                     <div data-label="">
                                         @if (!request.IsRead)
@@ -86,7 +86,7 @@
                 @AdminPanel.Admin_panel_Add_a_work
             </button>
 
-            <form asp-action="AddMovieFromPortfolio"
+            <form asp-controller="AdminPanel" asp-action="AddMovieFromPortfolio" enctype="multipart/form-data"
                   method="post"
                   class="admin-form admin-form--create @(showPortfolioForm ? null : "is-hidden")"
                   id="portfolioCreateForm">
@@ -110,6 +110,10 @@
                     <label asp-for="NewPortfolio.UrlMovie">@AdminPanel.Admin_panel_link_to_video</label>
                     <input asp-for="NewPortfolio.UrlMovie" class="admin-form__input" />
                 </div>
+                <div class="admin-form__field">
+                    <input type="file" name="movie" accept="video/*" />
+                </div>
+
                 <div class="admin-form__actions">
                     <button type="submit" class="admin-button admin-button--block">@AdminPanel.Admin_panel_save_work</button>
                     <button type="button"
@@ -191,7 +195,7 @@
 
         <div class="admin-card admin-card--section">
             <div class="admin-section-header">
-                <h2 class="admin-card__title">Отзывы</h2>
+                <h2 class="admin-card__title">@AdminPanel.Admin_panel_reviews</h2>
             </div>
 
             <button type="button"
@@ -199,7 +203,7 @@
                     id="toggleReviewForm"
                     aria-expanded="@(showReviewForm ? "true" : "false")"
                     aria-controls="reviewCreateForm">
-                Добавить отзыв
+                @AdminPanel.Admin_panel_leave_a_review
             </button>
 
             <form asp-action="AddReviewFromReviews"
@@ -208,26 +212,26 @@
                   id="reviewCreateForm">
                 @Html.AntiForgeryToken()
                 <div class="admin-form__field">
-                    <label asp-for="NewReview.Name">Имя</label>
+                    <label asp-for="NewReview.Name">@AdminPanel.Admin_panel_name</label>
                     <input asp-for="NewReview.Name" class="admin-form__input" />
                 </div>
                 <div class="admin-form__field">
-                    <label asp-for="NewReview.ShortDescription">Короткое описание</label>
+                    <label asp-for="NewReview.ShortDescription">@AdminPanel.Admin_panel_short_description</label>
                     <input asp-for="NewReview.ShortDescription" class="admin-form__input" />
                     @Html.ValidationMessageFor(x => x.NewReview.ShortDescription)
                 </div>
                 <div class="admin-form__field">
-                    <label asp-for="NewReview.Text">Текст комментария</label>
+                    <label asp-for="NewReview.Text">@AdminPanel.Admin_panel_comment_text</label>
                     <textarea asp-for="NewReview.Text" class="admin-form__input admin-form__textarea"></textarea>
                     @Html.ValidationMessageFor(x => x.NewReview.Text)
                 </div>
                 <div class="admin-form__actions">
-                    <button type="submit" class="admin-button admin-button--block">Сохранить отзыв</button>
+                    <button type="submit" class="admin-button admin-button--block">@AdminPanel.Admin_panel_save_review</button>
                     <button type="button"
                             class="admin-button admin-button--secondary admin-button--block"
                             data-close-form="reviewCreateForm"
                             data-toggle-btn="toggleReviewForm">
-                        Отмена
+                        @AdminPanel.Admin_panel_btn_cancel
                     </button>
                 </div>
             </form>
@@ -235,25 +239,25 @@
             <div class="admin-table-wrap">
                 <div class="admin-grid admin-grid--reviews">
                     <div class="admin-grid__head">
-                        <div>Имя</div>
-                        <div>Кратко</div>
-                        <div>Текст</div>
-                        <div>Действия</div>
+                        <div>@AdminPanel.Admin_panel_name</div>
+                        <div>@AdminPanel.Admin_panel_short_description</div>
+                        <div>@AdminPanel.Admin_panel_comment_text</div>
+                        <div>@AdminPanel.Admin_panel_actions</div>
                     </div>
                     @foreach (var review in Model.Reviews)
                     {
                         <div class="admin-grid__row">
-                            <div data-label="Имя">@review.Name</div>
-                            <div data-label="Кратко">@review.ShortDescription</div>
-                            <div data-label="Текст">@review.Text</div>
-                            <div class="admin-table__actions" data-label="Действия">
+                            <div data-label="@AdminPanel.Admin_panel_name">@review.Name</div>
+                            <div data-label="@AdminPanel.Admin_panel_short_description">@review.ShortDescription</div>
+                            <div data-label="@AdminPanel.Admin_panel_comment_text">@review.Text</div>
+                            <div class="admin-table__actions" data-label="@AdminPanel.Admin_panel_actions">
                                 <form asp-action="DeleteReview" method="post" class="admin-inline-form">
                                     @Html.AntiForgeryToken()
                                     <input type="hidden" name="id" value="@review.Id" />
                                     <button type="submit"
                                             class="admin-button admin-button--danger admin-button--small"
-                                            onclick="return confirm('Удалить этот отзыв?')">
-                                        Удалить
+                                            onclick="return confirm('@AdminPanel.Admin_panel_delete_this_review')">
+                                        @AdminPanel.Admin_panel_btn_delete
                                     </button>
                                 </form>
                             </div>

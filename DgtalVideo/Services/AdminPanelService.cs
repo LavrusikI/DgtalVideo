@@ -42,6 +42,7 @@ namespace DgtalVideo.Services
                 Description = portfolio.Description,
                 Title = portfolio.Title,
                 UrlMovie = portfolio.UrlMovie,
+                FileMovie = portfolio.FileMovie,
                 UserCreatedId = userId,
             };
             _portfolioRepository.Add(portfolioModel);

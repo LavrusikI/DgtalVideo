@@ -189,4 +189,22 @@
   <data name="Admin_panel_new" xml:space="preserve">
     <value>New</value>
   </data>
+  <data name="Admin_panel_leave_a_review" xml:space="preserve">
+    <value>Leave a review</value>
+  </data>
+  <data name="Admin_panel_reviews" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+  <data name="Admin_panel_short_description" xml:space="preserve">
+    <value>Brief description</value>
+  </data>
+  <data name="Admin_panel_comment_text" xml:space="preserve">
+    <value>Comment text</value>
+  </data>
+  <data name="Admin_panel_save_review" xml:space="preserve">
+    <value>Save review</value>
+  </data>
+  <data name="Admin_panel_delete_this_review" xml:space="preserve">
+    <value>Delete this review?</value>
+  </data>
 </root>
