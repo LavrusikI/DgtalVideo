@@ -36,17 +36,19 @@ namespace DgtalVideo.Services
         }
         public void AddMovie(PortfolioViewModel portfolio, int userId)
         {
+            var fileMovie = portfolio.FileMovie;
+            var urlMovie = string.IsNullOrWhiteSpace(portfolio.UrlMovie) ? fileMovie : portfolio.UrlMovie;
             var portfolioModel = new PortfolioData
             {
-                Category = portfolio.Category,
+                Category = portfolio.Category ?? string.Empty,
                 Description = portfolio.Description,
-                Title = portfolio.Title,
-                UrlMovie = portfolio.UrlMovie,
-                FileMovie = portfolio.FileMovie,
+                Title = portfolio.Title ?? string.Empty,
+                UrlMovie = urlMovie,
+                FileMovie = fileMovie,
                 UserCreatedId = userId,
             };
             _portfolioRepository.Add(portfolioModel);
-            _hubContext.Clients.All.NewMovieAdded(portfolio.Title);
+            _hubContext.Clients.All.NewMovieAdded(portfolioModel.Title);
         }
 
         public void UpdateMovie(PortfolioViewModel portfolio)
@@ -56,10 +58,12 @@ namespace DgtalVideo.Services
             {
                 return;
             }
-            movieId.Title = portfolio.Title;
-            movieId.Category = portfolio.Category;
+            movieId.Title = portfolio.Title ?? string.Empty;
+            movieId.Category = portfolio.Category ?? string.Empty;
             movieId.Description = portfolio.Description;
-            movieId.UrlMovie = portfolio.UrlMovie;
+            movieId.UrlMovie = string.IsNullOrWhiteSpace(portfolio.UrlMovie)
+                ? movieId.FileMovie
+                : portfolio.UrlMovie;
             _portfolioRepository.Update(movieId);
         }
         public void DeleteMovie(int movieId)
@@ -71,9 +75,9 @@ namespace DgtalVideo.Services
         {
             var reviewModel = new ReviewsData
             {
-                Name = reviews.Name,
-                ShortDescription = reviews.ShortDescription,
-                Text = reviews.Text,
+                Name = reviews.Name ?? string.Empty,
+                ShortDescription = reviews.ShortDescription ?? string.Empty,
+                Text = reviews.Text ?? string.Empty,
                 UsersId = userId,
             };
             _reviewsRepository.Add(reviewModel);
@@ -103,9 +107,9 @@ namespace DgtalVideo.Services
             return new ReviewsViewModel
             {
                 Id = reviews.Id,
-                Name = reviews.Name,
-                ShortDescription = reviews.ShortDescription,
-                Text = reviews.Text,
+                Name = reviews.Name ?? string.Empty,
+                ShortDescription = reviews.ShortDescription ?? string.Empty,
+                Text = reviews.Text ?? string.Empty,
             };
         }
 
@@ -114,10 +118,11 @@ namespace DgtalVideo.Services
             return new PortfolioViewModel
             {
                 Id = portfolio.Id,
-                Category = portfolio.Category,
+                Category = portfolio.Category ?? string.Empty,
                 Description = portfolio.Description,
-                Title = portfolio.Title,
-                UrlMovie = portfolio.UrlMovie,
+                Title = portfolio.Title ?? string.Empty,
+                UrlMovie = portfolio.UrlMovie ?? portfolio.FileMovie,
+                FileMovie = portfolio.FileMovie,
             };
         }
         public static ContactFormViewModel MapContactForm(ContactFormData contactForm)

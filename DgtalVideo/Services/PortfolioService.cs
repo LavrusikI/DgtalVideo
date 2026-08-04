@@ -24,10 +24,10 @@ namespace DgtalVideo.Services
             return new PortfolioViewModel
             {
                 Id = portfolio.Id,
-                Title = portfolio.Title,
-                Category = portfolio.Category,
+                Title = portfolio.Title ?? string.Empty,
+                Category = portfolio.Category ?? string.Empty,
                 Description = portfolio.Description,
-                UrlMovie = portfolio.UrlMovie,
+                UrlMovie = portfolio.UrlMovie ?? portfolio.FileMovie,
                 FileMovie = portfolio.FileMovie,
             };
         }

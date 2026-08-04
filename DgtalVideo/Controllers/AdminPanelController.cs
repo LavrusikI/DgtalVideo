@@ -18,11 +18,17 @@ namespace DgtalVideo.Controllers
         private readonly IPortfolioRepository _portfolioRepository;
         private readonly IPortfolioService _portfolioService;
         private readonly IAdminPanelService _adminPanelService;
-        public AdminPanelController(IAdminPanelService adminPanelService, IPortfolioRepository portfolioRepository, IPortfolioService portfolioService)
+        private readonly IWebHostEnvironment _environment;
+        public AdminPanelController(
+            IAdminPanelService adminPanelService,
+            IPortfolioRepository portfolioRepository,
+            IPortfolioService portfolioService,
+            IWebHostEnvironment environment)
         {
             _adminPanelService = adminPanelService;
             _portfolioRepository = portfolioRepository;
             _portfolioService = portfolioService;
+            _environment = environment;
         }
         [HttpGet]
         public IActionResult AdminPanel(int? editId)
@@ -52,18 +58,13 @@ namespace DgtalVideo.Controllers
 
             if (movie != null && movie.Length > 0)
             {
-                var movieName = portfolio.Title;
-                var fileName = "";
-                if (movieName.Length <= 10)
-                {
-                    fileName = $"portfolio-{movieName}.mp4";
-                }
-                else if (movieName.Length >= 10 || movieName == null)
-                {
-                    fileName = $"portfolio.mp4";
+                var movieName = string.IsNullOrWhiteSpace(portfolio.Title) ? "video" : portfolio.Title.Trim();
+                var fileName = movieName.Length <= 10
+                    ? $"new-{movieName}.mp4"
+                    : $"{movieName}.mp4";
 
-                }
-                var pathToFolder = "D:\\DgtalVideo\\DgtalVideo\\wwwroot\\videos\\";
+                var pathToFolder = Path.Combine(_environment.WebRootPath, "videos");
+                Directory.CreateDirectory(pathToFolder);
                 var path = Path.Combine(pathToFolder, fileName);
 
                 using (var fileStream = new FileStream(path, FileMode.Create))
@@ -71,11 +72,11 @@ namespace DgtalVideo.Controllers
                     movie.CopyTo(fileStream);
                 }
 
-                portfolio.FileMovie = $"wwwroot\\videos\\{fileName}";
-
-                if (string.IsNullOrEmpty(portfolio.UrlMovie))
+                var relativeUrl = $"/videos/{fileName}";
+                portfolio.FileMovie = relativeUrl;
+                if (string.IsNullOrWhiteSpace(portfolio.UrlMovie))
                 {
-                    portfolio.FileMovie = portfolio.UrlMovie;
+                    portfolio.UrlMovie = relativeUrl;
                 }
             }
 

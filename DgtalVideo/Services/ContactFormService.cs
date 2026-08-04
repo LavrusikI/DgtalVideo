@@ -23,9 +23,9 @@ namespace DgtalVideo.Services
         {
             var contactForm = new ContactFormData
             {
-                NameCustomer = viewModel.NameCustomer,
-                MobilePhone = viewModel.MobilePhone,
-                ApplicationText = viewModel.ApplicationText,
+                NameCustomer = viewModel.NameCustomer ?? string.Empty,
+                MobilePhone = viewModel.MobilePhone ?? string.Empty,
+                ApplicationText = viewModel.ApplicationText ?? string.Empty,
                 CreatedAt = viewModel.CreatedAt,
                 IsRead = false,
             };

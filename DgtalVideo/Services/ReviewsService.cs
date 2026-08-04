@@ -25,10 +25,10 @@ namespace DgtalVideo.Services
             return new ReviewsViewModel
             {
                 Id = reviews.Id,
-                Name = reviews.Name,
-                ShortDescription = reviews.ShortDescription,
-                Text = reviews.Text,
+                Name = reviews.Name ?? string.Empty,
+                ShortDescription = reviews.ShortDescription ?? string.Empty,
+                Text = reviews.Text ?? string.Empty,
             };
-    }
+        }
 }
 }
