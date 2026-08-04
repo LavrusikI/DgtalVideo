@@ -61,6 +61,15 @@ namespace DgtalVideo.Localizations.ContactForm {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Do you have any questions?.
+        /// </summary>
+        public static string Contact_form_any_questions {
+            get {
+                return ResourceManager.GetString("Contact_form_any_questions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Enter your phone number, and we will contact you shortly..
         /// </summary>
         public static string Contact_form_header {

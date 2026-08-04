@@ -1,13 +1,19 @@
 ﻿@using DgtalVideo.Localizations.ContactForm
 @model DgtalVideo.Models.ContactFormViewModel
 <section>
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-hero__title">@ContactForm.Contact_form_any_questions</h1>
+            <p class="page-hero__text">@ContactForm.Contact_form_header</p>
+        </div>
+    </section>
+
     <section class="content-block">
         <div class="container">
             <form method="post"
                   asp-controller="ContactForm"
                   asp-action="SubmitContactForm"
                   class="admin-form">
-                <label>@ContactForm.Contact_form_header</label>
                <div>
                     @Html.TextBox("NameCustomer", null, new { placeholder = @ContactForm.Contact_form_how_should_i_address_you })
                     @Html.ValidationMessageFor(x => x.NameCustomer)

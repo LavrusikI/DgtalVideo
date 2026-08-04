@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Contact_form_any_questions" xml:space="preserve">
+    <value>Появились вопросы?</value>
+  </data>
   <data name="Contact_form_header" xml:space="preserve">
     <value>Введите номер телефона, мы с Вами свяжемся в ближайшее время</value>
   </data>
