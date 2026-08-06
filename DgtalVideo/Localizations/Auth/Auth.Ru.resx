@@ -135,6 +135,18 @@
   <data name="Login_have_an_account" xml:space="preserve">
     <value>Уже есть аккаунт?</value>
   </data>
+  <data name="Login_login_name" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="Login_mobile_phone" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="Login_name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Login_password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
   <data name="Login_sign_up" xml:space="preserve">
     <value>Зарегистрируйся</value>
   </data>

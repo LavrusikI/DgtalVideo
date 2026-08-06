@@ -45,7 +45,7 @@ namespace DgtalVideo.Controllers
             var claims = new List<Claim>
             {
                 new Claim("Id", user.Id.ToString()),
-                new Claim("Role", user.Role.ToString()),
+                new Claim(ClaimTypes.Role, user.Role.ToString()),
                 new Claim(AuthService.COOKIE_LANGUAGE_KEY, user.SelectedLanguage.ToString()),
                 new Claim(ClaimTypes.AuthenticationMethod, AuthService.AUTH_KEY)
             };

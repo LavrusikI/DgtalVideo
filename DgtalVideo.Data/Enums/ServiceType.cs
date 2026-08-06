@@ -8,24 +8,24 @@ namespace DgtalVideo.Data.Enums
 {
     public enum ServiceType
     {
-        ЦветокоррекцияНет = 0,
-        ЦветокоррекцияДа = 400,
+        Нет = 0,
+        Да = 400,
     }
     public enum VolumeOfSourceFiles
     {
-        ОбъемИсходниковДо5Гб = 600,
-        ОбъемИсходниковДо15Гб = 1000,
-        ОбъемИсходниковДо50Гб = 1500,
+        ГБ5 = 600,
+        ГБ15 = 1000,
+        ГБ50 = 1500,
     }
     public enum Subtitles
     {
-        СубтитрыНеНужны = 0,
-        СубтитрыНужны = 300,
+        Нет = 0,
+        Да = 300,
     }
     public enum Urgency
     {
-        НеСрочно = 0,
-        Срочно = 650,
+        Нет = 0,
+        Да = 650,
     }
     public enum Format
     {

@@ -115,6 +115,42 @@ namespace DgtalVideo.Localizations.Auth {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Login.
+        /// </summary>
+        public static string Login_login_name {
+            get {
+                return ResourceManager.GetString("Login_login_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Mobile phone.
+        /// </summary>
+        public static string Login_mobile_phone {
+            get {
+                return ResourceManager.GetString("Login_mobile_phone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Name.
+        /// </summary>
+        public static string Login_name {
+            get {
+                return ResourceManager.GetString("Login_name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Password.
+        /// </summary>
+        public static string Login_password {
+            get {
+                return ResourceManager.GetString("Login_password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Sign up.
         /// </summary>
         public static string Login_sign_up {

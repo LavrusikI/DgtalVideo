@@ -11,13 +11,13 @@
             <p class="section__subtitle">@Auth.Login_use_username_password</p>
             <form method="post" asp-action="Login" class="admin-form">
                 <div>
-                    <label class="admin-form__label" asp-for="Login"></label>
+                    <label class="admin-form__label" asp-for="Login">@Auth.Login</label>
                     @Html.TextBoxFor(x => x.Login)
                     @Html.ValidationMessageFor(x => x.Login)
                 </div>
                 <div>
-                    <label class="admin-form__label" asp-for="Password"></label>
-                    @Html.TextBoxFor(x => x.Password)
+                    <label class="admin-form__label" asp-for="Password">@Auth.Login_password</label>
+                    @Html.PasswordFor(x => x.Password)
                     @Html.ValidationMessageFor(x => x.Password)
                 </div>
                 <button type="submit" class="admin-button">@Auth.Login</button>

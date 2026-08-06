@@ -8,22 +8,22 @@
             <p class="section__subtitle">@Auth.Login_enter_your_details</p>
             <form method="post" asp-action="Registration" class="admin-form">
                 <div>
-                    <label class="admin-form__label" asp-for="Login"></label>
+                    <label class="admin-form__label" asp-for="Login">@Auth.Login</label>
                     @Html.TextBoxFor(x => x.Login, new { placeholder = "Login" })
                     @Html.ValidationMessageFor(x => x.Login)
                 </div>
                 <div>
-                    <label class="admin-form__label" asp-for="Password"></label>
-                    @Html.TextBoxFor(x => x.Password, new { placeholder = "Password" })
+                    <label class="admin-form__label" asp-for="Password">@Auth.Login_password</label>
+                    @Html.PasswordFor(x => x.Password, new { placeholder = "Password" })
                     @Html.ValidationMessageFor(x => x.Password)
                 </div>
                 <div>
-                    <label class="admin-form__label" asp-for="Name"></label>
+                    <label class="admin-form__label" asp-for="Name">@Auth.Login_login_name</label>
                     @Html.TextBoxFor(x => x.Name, new { placeholder = "Name" })
                     @Html.ValidationMessageFor(x => x.Name)
                 </div>
                 <div>
-                    <label class="admin-form__label" asp-for="MobilePhone"></label>
+                    <label class="admin-form__label" asp-for="MobilePhone">@Auth.Login_mobile_phone</label>
                     @Html.TextBoxFor(x => x.MobilePhone, new { placeholder = "+7(9XX)XXX-XX-XX" })
                     @Html.ValidationMessageFor(x => x.MobilePhone)
                 </div>
@@ -39,7 +39,7 @@
                                 class="language-picker__select"></select>
                     </div>
                 </div>
-                <button type="submit" class="admin-button">Registration</button>
+                <button type="submit" class="admin-button">@Auth.Login_sign_up</button>
                 @Auth.Registration_already_have_an_account
                 <p class="section__subtitle">
                     <a asp-controller="Auth" asp-action="Login">@Auth.Login</a>

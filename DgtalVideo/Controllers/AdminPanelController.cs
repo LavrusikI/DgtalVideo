@@ -1,7 +1,9 @@
-﻿using DgtalVideo.Data.Models;
+﻿using DgtalVideo.Data.Enums;
+using DgtalVideo.Data.Models;
 using DgtalVideo.Data.Repository.Interfaces;
 using DgtalVideo.Hubs;
 using DgtalVideo.Hubs.Interfaces;
+using DgtalVideo.Localizations.Enums;
 using DgtalVideo.Models;
 using DgtalVideo.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -12,13 +14,14 @@ using System.Security.Claims;
 
 namespace DgtalVideo.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class AdminPanelController : Controller
     {
         private readonly IPortfolioRepository _portfolioRepository;
         private readonly IPortfolioService _portfolioService;
         private readonly IAdminPanelService _adminPanelService;
         private readonly IWebHostEnvironment _environment;
+
         public AdminPanelController(
             IAdminPanelService adminPanelService,
             IPortfolioRepository portfolioRepository,
@@ -58,21 +61,18 @@ namespace DgtalVideo.Controllers
 
             if (movie != null && movie.Length > 0)
             {
-                var movieName = string.IsNullOrWhiteSpace(portfolio.Title) ? "video" : portfolio.Title.Trim();
-                var fileName = movieName.Length <= 10
-                    ? $"new-{movieName}.mp4"
-                    : $"{movieName}.mp4";
-
+                var extension = Path.GetExtension(movie.FileName);
+                var movieName = $"{Guid.NewGuid():N}{extension.ToLowerInvariant()}";
                 var pathToFolder = Path.Combine(_environment.WebRootPath, "videos");
                 Directory.CreateDirectory(pathToFolder);
-                var path = Path.Combine(pathToFolder, fileName);
+                var path = Path.Combine(pathToFolder, movieName);
 
                 using (var fileStream = new FileStream(path, FileMode.Create))
                 {
                     movie.CopyTo(fileStream);
                 }
 
-                var relativeUrl = $"/videos/{fileName}";
+                var relativeUrl = $"/videos/{movieName}";
                 portfolio.FileMovie = relativeUrl;
                 if (string.IsNullOrWhiteSpace(portfolio.UrlMovie))
                 {

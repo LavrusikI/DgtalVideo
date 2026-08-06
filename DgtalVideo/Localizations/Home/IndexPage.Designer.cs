@@ -79,7 +79,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Capture the best moments of your vacation with stylish and atmospheric videos..
+        ///   Ищет локализованную строку, похожую на Preserve your best travel moments with vivid videos that transport you back to the holiday atmosphere!.
         /// </summary>
         public static string Index_about_vacation_video {
             get {
@@ -88,7 +88,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Draw attention to your contests with eye-catching and creative videos..
+        ///   Ищет локализованную строку, похожую на Stand out from the competition with creative contest videos that grab attention.
         /// </summary>
         public static string Index_about_video_for_contests {
             get {
@@ -97,7 +97,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Emotional and personalized video greetings that create unforgettable moments for your loved ones and colleagues. Share joy and warmth with a unique video!.
+        ///   Ищет локализованную строку, похожую на Give the gift of emotion with unique video greetings for your loved ones for any occasion.
         /// </summary>
         public static string Index_about_video_greetings {
             get {
@@ -484,7 +484,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Vibrant and memorable videos to promote a brand, product, or service..
+        ///   Ищет локализованную строку, похожую на Create eye-catching videos that grab attention and make your brand unforgettable.
         /// </summary>
         public static string Index_video_description_part1 {
             get {
@@ -493,7 +493,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Company presentations, event reports, and internal communications..
+        ///   Ищет локализованную строку, похожую на Highlight your company&apos;s values ​​with professional corporate videos that inspire!.
         /// </summary>
         public static string Index_video_description_part2 {
             get {
@@ -502,7 +502,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Touching love stories, edited with attention to every detail..
+        ///   Ищет локализованную строку, похожую на Capture the magic of your day with touching wedding films that you will cherish for a lifetime.
         /// </summary>
         public static string Index_video_description_part3 {
             get {
@@ -511,7 +511,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Dynamic editing for bloggers and creators that keeps viewers engaged until the very end..
+        ///   Ищет локализованную строку, похожую на Engage your audience with creative YouTube content that tells your story.
         /// </summary>
         public static string Index_video_description_part4 {
             get {
@@ -520,7 +520,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Rhythmic beat-synced editing with color grading and visual effects..
+        ///   Ищет локализованную строку, похожую на Bring your music project to life with vibrant music videos that will stick in viewers&apos; minds.
         /// </summary>
         public static string Index_video_description_part5 {
             get {
@@ -529,7 +529,7 @@ namespace DgtalVideo.Localizations.Home {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Short-form vertical content for Instagram, TikTok, and other platforms..
+        ///   Ищет локализованную строку, похожую на Create short, dynamic videos that instantly grab attention on social media.
         /// </summary>
         public static string Index_video_description_part6 {
             get {
