@@ -37,7 +37,7 @@ namespace DgtalVideo.Tests.E2E.Tests
             _driver.FindElement(By.CssSelector("#Password")).SendKeys("admin");
             _driver.FindElement(By.CssSelector("#Name")).SendKeys("admin");
             Thread.Sleep(500);
-            _driver.FindElement(By.CssSelector("#MobilePhone")).SendKeys("+375664447788");
+            _driver.FindElement(By.CssSelector("#MobilePhone")).SendKeys("+79867540938");
             Thread.Sleep(500);
             executor.ExecuteScript("arguments[0].click();", _driver.FindElement(By.XPath("//button[@type='submit']")));
             Thread.Sleep(500);

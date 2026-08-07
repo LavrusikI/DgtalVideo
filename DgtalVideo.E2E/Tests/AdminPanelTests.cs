@@ -37,7 +37,7 @@ namespace DgtalVideo.Tests.E2E.Tests
             _driver.FindElement(By.XPath("//input[@id='NewPortfolio_Title']")).SendKeys("Промо для альфа банка");
             _driver.FindElement(By.XPath("//input[@id='NewPortfolio_Category']")).SendKeys("Промо");
             _driver.FindElement(By.XPath("//textarea[@id='NewPortfolio_Description']")).SendKeys("Промо для альфа банка");
-            _driver.FindElement(By.XPath("//input[@id='NewPortfolio_UrlMovie']")).SendKeys("/videos/alfa-bank.mp4");
+            _driver.FindElement(By.XPath("//input[@name='movie']")).SendKeys("/videos/alfa-bank.mp4");
             executor.ExecuteScript("arguments[0].click();", _driver.FindElement(By.XPath("//button[contains(text(),'Сохранить работу')]")));
             Thread.Sleep(2000);
             executor.ExecuteScript("window.scrollBy(0, 1500);");
