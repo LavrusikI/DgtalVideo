@@ -5,6 +5,7 @@ using DgtalVideo.Hubs;
 using DgtalVideo.Hubs.Interfaces;
 using DgtalVideo.Localizations.Enums;
 using DgtalVideo.Models;
+using DgtalVideo.Models.CustomValidationAttribute;
 using DgtalVideo.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -49,7 +50,7 @@ namespace DgtalVideo.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddMovieFromPortfolio([Bind(Prefix = "NewPortfolio")] PortfolioViewModel portfolio, IFormFile? movie)
+        public IActionResult AddMovieFromPortfolio([Bind(Prefix = "NewPortfolio")] PortfolioViewModel portfolio, [CheckFileSize (35*1024*1024)] IFormFile? movie)
         {
             if (!ModelState.IsValid)
             {
@@ -61,8 +62,15 @@ namespace DgtalVideo.Controllers
 
             if (movie != null && movie.Length > 0)
             {
+                var allowedExtensions = new[] { ".mp4", ".mov" };
                 var extension = Path.GetExtension(movie.FileName);
                 var movieName = $"{Guid.NewGuid():N}{extension.ToLowerInvariant()}";
+
+                if (string.IsNullOrEmpty(extension) || !allowedExtensions.Contains(extension))
+                {
+                    return BadRequest("Недопустимое расширение файла.");
+                }
+               
                 var pathToFolder = Path.Combine(_environment.WebRootPath, "videos");
                 Directory.CreateDirectory(pathToFolder);
                 var path = Path.Combine(pathToFolder, movieName);
@@ -71,7 +79,7 @@ namespace DgtalVideo.Controllers
                 {
                     movie.CopyTo(fileStream);
                 }
-
+           
                 var relativeUrl = $"/videos/{movieName}";
                 portfolio.FileMovie = relativeUrl;
                 if (string.IsNullOrWhiteSpace(portfolio.UrlMovie))
