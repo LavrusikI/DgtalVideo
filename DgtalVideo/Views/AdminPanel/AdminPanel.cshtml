@@ -107,10 +107,6 @@
                     @Html.ValidationMessageFor(x => x.NewPortfolio.Description)
                 </div>
                 <div class="admin-form__field">
-                    <label asp-for="NewPortfolio.UrlMovie">@AdminPanel.Admin_panel_link_to_video</label>
-                    <input asp-for="NewPortfolio.UrlMovie" class="admin-form__input" />
-                </div>
-                <div class="admin-form__field">
                     <input type="file" name="movie" accept=".mp4,.mov,video/mp4,video/quicktime" />
                     @Html.ValidationMessage("movie")
                 </div>

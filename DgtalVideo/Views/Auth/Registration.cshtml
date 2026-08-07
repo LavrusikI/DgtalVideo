@@ -8,7 +8,7 @@
             <p class="section__subtitle">@Auth.Login_enter_your_details</p>
             <form method="post" asp-action="Registration" class="admin-form">
                 <div>
-                    <label class="admin-form__label" asp-for="Login">@Auth.Login</label>
+                    <label class="admin-form__label" asp-for="Login">@Auth.Login_login_name</label>
                     @Html.TextBoxFor(x => x.Login, new { placeholder = "Login" })
                     @Html.ValidationMessageFor(x => x.Login)
                 </div>
@@ -18,7 +18,7 @@
                     @Html.ValidationMessageFor(x => x.Password)
                 </div>
                 <div>
-                    <label class="admin-form__label" asp-for="Name">@Auth.Login_login_name</label>
+                    <label class="admin-form__label" asp-for="Name">@Auth.Login_name</label>
                     @Html.TextBoxFor(x => x.Name, new { placeholder = "Name" })
                     @Html.ValidationMessageFor(x => x.Name)
                 </div>
