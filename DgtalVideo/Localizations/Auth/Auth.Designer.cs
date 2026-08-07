@@ -79,6 +79,15 @@ namespace DgtalVideo.Localizations.Auth {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Try again later.
+        /// </summary>
+        public static string Error_header_try_again {
+            get {
+                return ResourceManager.GetString("Error_header_try_again", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Log in.
         /// </summary>
         public static string Login {

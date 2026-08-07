@@ -123,6 +123,9 @@
   <data name="Deny_not_permission" xml:space="preserve">
     <value>У вас нет прав для просмотра этой страницы.</value>
   </data>
+  <data name="Error_header_try_again" xml:space="preserve">
+    <value>Попробуйте позже</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>Войти</value>
   </data>

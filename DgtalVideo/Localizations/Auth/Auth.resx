@@ -123,6 +123,9 @@
   <data name="Deny_not_permission" xml:space="preserve">
     <value>You do not have permission to view this page.</value>
   </data>
+  <data name="Error_header_try_again" xml:space="preserve">
+    <value>Try again later</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>Log in</value>
   </data>

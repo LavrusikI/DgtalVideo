@@ -18,20 +18,14 @@ namespace DgtalVideo.Controllers
     [Authorize(Roles = "Admin")]
     public class AdminPanelController : Controller
     {
-        private readonly IPortfolioRepository _portfolioRepository;
-        private readonly IPortfolioService _portfolioService;
         private readonly IAdminPanelService _adminPanelService;
         private readonly IWebHostEnvironment _environment;
 
         public AdminPanelController(
             IAdminPanelService adminPanelService,
-            IPortfolioRepository portfolioRepository,
-            IPortfolioService portfolioService,
             IWebHostEnvironment environment)
         {
             _adminPanelService = adminPanelService;
-            _portfolioRepository = portfolioRepository;
-            _portfolioService = portfolioService;
             _environment = environment;
         }
         [HttpGet]
